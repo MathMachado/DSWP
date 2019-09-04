@@ -412,7 +412,7 @@ ___
 * [X] [Python Series](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Series.ipynb)
 * [ ] [NumPy]()
 * [ ] [Aggregations & Group Operations]()
-* [X] [Functions](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Functions.ipynb)
+* [ ] [Functions](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Functions.ipynb)
 * [X] [Working With Dates and Times](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Working%20With%20Dates%20and%20Times.ipynb)
 
 ___
