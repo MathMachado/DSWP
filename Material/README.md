@@ -1,1 +1,1 @@
-Todos os materiais de suporte do treinamento.
+Este folder contem as figuras e material de suporte para o treinamento.
