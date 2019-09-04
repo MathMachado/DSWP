@@ -413,7 +413,7 @@ ___
 * [ ] [NumPy]()
 * [ ] [Aggregations & Group Operations]()
 * [X] [Functions](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Functions.ipynb)
-* [ ] [Working With Dates and Times](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Working With Dates and Times.ipynb)
+* [X] [Working With Dates and Times](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Working%20With%20Dates%20and%20Times.ipynb)
 
 ___
 # Data Analysis With Pandas
