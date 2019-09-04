@@ -404,20 +404,20 @@ ___
 
 ![Variable Names Rules](https://github.com/MathMachado/DSWP/blob/master/Material/VariablesNamesRules.png?raw=true)
 
-* [X] [Getting Started with Python](https://github.com/MathMachado/DSWP/blob/master/GettingStarted.ipynb)
-* [X] [Python Tuples](https://github.com/MathMachado/DSWP/blob/master/Python%20Tuples.ipynb)
-* [X] [Python Lists](https://github.com/MathMachado/DSWP/blob/master/Python%20Lists.ipynb)
-* [X] [Python Sets](https://github.com/MathMachado/DSWP/blob/master/Python%20Sets.ipynb)
-* [X] [Python Dictionaries](https://github.com/MathMachado/DSWP/blob/master/Python%20Dictionaries.ipynb)
-* [X] [Python Series](https://github.com/MathMachado/DSWP/blob/master/Python%20Series.ipynb)
+* [X] [Getting Started with Python](https://github.com/MathMachado/DSWP/blob/master/Notebooks/GettingStarted.ipynb)
+* [X] [Python Tuples](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Tuples.ipynb)
+* [X] [Python Lists](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Lists.ipynb)
+* [X] [Python Sets](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Sets.ipynb)
+* [X] [Python Dictionaries](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Dictionaries.ipynb)
+* [X] [Python Series](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Series.ipynb)
 * [ ] [NumPy]()
 * [ ] [Aggregations & Group Operations]()
-* [X] [Functions](https://github.com/MathMachado/DSWP/blob/master/Functions.ipynb)
-* [ ] [Working With Dates and Times](Working With Dates and Times.ipynb)
+* [X] [Functions](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Functions.ipynb)
+* [ ] [Working With Dates and Times](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Working With Dates and Times.ipynb)
 
 ___
 # Data Analysis With Pandas
-- [X] [Data Analysis with Pandas](https://colab.research.google.com/github/MathMachado/DSWP/blob/master/Data%20Analysis%20with%20Pandas.ipynb)
+- [X] [Data Analysis with Pandas](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Data%20Analysis%20with%20Pandas.ipynb)
 	* [Index & Selection]()
 	* [Missing Values Handling]()
 	* [Combining Dataframes: concat() and append()]()
@@ -434,9 +434,9 @@ ___
 # Advanced Resources
 * [ ] [Python RegEx - Regular Expressions](Python RegEx - Regular Expressions.ipynb)
 * [ ] [Modules](Modules.ipynb)
-* [X] [Fake Data](https://github.com/MathMachado/DSWP/blob/master/Fake%20Data.ipynb)
+* [X] [Fake Data](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Fake%20Data.ipynb)
 * [ ] [Classes and Methods](Classes and Methods.ipynb)
-* [ ] [Statistics and Probability](Statistics and Probability.ipynb) - Finalizar!
+* [ ] [Statistics and Probability](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Statistics and Probability.ipynb) - Finalizar!
 
 ___
 # Machine Learning
@@ -452,13 +452,13 @@ ___
 		* [ ] [3DP_Data Preprocessing]()
 		* [X] [3DP_Missing Values Handling]()
 		* [X] [3DP_Outliers Handling]()
-		* [X] [3DP_Data Transformation](https://github.com/MathMachado/DSWP/blob/master/3DP_Data%20Transformation.ipynb)
+		* [X] [3DP_Data Transformation](https://github.com/MathMachado/DSWP/blob/master/Notebooks/3DP_Data%20Transformation.ipynb)
 		* [ ] [3DP_Feature Engineering]()
-		* [X] [3DP_Feature Selection ou Dimensionality Reduction](https://github.com/MathMachado/DSWP/blob/master/3DP_Feature%20Selection.ipynb)
+		* [X] [3DP_Feature Selection ou Dimensionality Reduction](https://github.com/MathMachado/DSWP/blob/master/Notebooks/3DP_Feature%20Selection.ipynb)
 	* [ ] [4M - Modeling]
 	* [ ] [5MSE - Modeling Selection and Evaluation]
 	* [ ] [6D - Deployment]
-* [X] [Pipelines usando Titanic Dataframe](https://github.com/MathMachado/DSWP/blob/master/Pipelines.ipynb)
+* [X] [Pipelines usando Titanic Dataframe](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Pipelines.ipynb)
 * [ ] [Ensemble Models] --> Veja esse exemplo: https://github.com/MathMachado/DSWP/blob/master/Material/Building%20an%20Ensemble%20Learning%20Model%20Using%20Scikit-learn.pdf
 
 ___
@@ -466,11 +466,11 @@ ___
 > A seguir, vos apresento os projetos/estudos de caso:.
 - [ ] Titanic - Problema da Classificação
 	* [X] 3DP - Data Preparation
-		* [X] [3DP_Feature Engineering_Fase1](https://github.com/MathMachado/DSWP/blob/master/3DP_Feature%20Engineering_Fase1.ipynb)
-		* [X] [3DP_Missing Values Handling](https://github.com/MathMachado/DSWP/blob/master/3DP_Missing%20Value%20Handling.ipynb)
+		* [X] [3DP_Feature Engineering_Fase1](https://github.com/MathMachado/DSWP/blob/master/Projetos/Classification/Titanic/3DP_Feature%20Engineering_Fase1.ipynb)
+		* [X] [3DP_Missing Values Handling](https://github.com/MathMachado/DSWP/blob/master/Projetos/Classification/Titanic/3DP_Missing%20Value%20Handling.ipynb)
 		* [X] [3DP_Outliers Handling]()
 		* [ ] [3DP_Feature Engineering_Fase2]()
-		* [X] [3DP_Data Transformation](https://github.com/MathMachado/DSWP/blob/master/Projetos/Titanic/3DP_Data%20Transformation_Titanic.ipynb)
+		* [X] [3DP_Data Transformation](https://github.com/MathMachado/DSWP/blob/master/Projetos/Classification/Titanic/3DP_Data%20Transformation_Titanic.ipynb)
 		* [X] [3DP_Feature Selection ou Dimensionality Reduction]()
 	* [ ] [4M - Modeling]
 	* [ ] [5MSE - Modeling Selection and Evaluation]
