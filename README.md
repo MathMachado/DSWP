@@ -314,8 +314,6 @@ ___
 * [X] [Métricas](https://scikit-learn.org/stable/modules/model_evaluation.html)
 * [X] [Model Selection and Evaluation](https://scikit-learn.org/stable/model_selection.html#model-selection)
 
-Eu comprei o curso: https://www.udemy.com/course/machine-learning-in-python-random-forest-adaboost/. Dá pra aproveitar alguma coisa?
-
 ___
 ## 6D - Deployment
 > Implementa o modelo (ou conjunto de modelos nos casos de Emsembles Methods).
