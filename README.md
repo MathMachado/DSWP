@@ -11,7 +11,7 @@ ___
 * [X] [How to check your Anaconda version](/Material/How%20to%20check%20your%20Anaconda%20version%20-%20Davide%20Mauri%20-%20Medium.pdf)
 
 ## Download dos dataframes do treinamento
-> Os dataframes que serão utilizados no treinamento estão [aqui](https://github.com/MathMachado/Python_RFB/tree/master/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
+> Os dataframes que serão utilizados no treinamento estão [aqui](/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
 
 ## Jupyter Notebook
 ![JupyterNotebook](/Material/JupyterNotebookLogo.png?raw=true)
