@@ -6,7 +6,7 @@ ___
 > Anaconda é uma ferramenta/plataforma para Data Science que permite gerir as distribuições de Python para os sistemas operacionais Windows, Linux e MAC. Então, por favor, instale o [Anaconda](https://www.anaconda.com/distribution/). Neste tutorial, você vai encontrar os passos necessários para instalar o Anaconda no seu sistema operacional. Ao instalar o Anaconda, você estará instalando um ambiente para Data Science com todas as ferramentas necessárias como [Python](https://www.python.org/) e suas principais bibliotecas, [Jupyter Notebook](https://jupyter.org/) e [Spyder](https://www.spyder-ide.org/).
 
 ### Sugestões de leitura:
-* [X] [How to check your Anaconda version](https://github.com/MathMachado/Python_RFB/blob/master/Material/How%20to%20check%20your%20Anaconda%20version%20-%20Davide%20Mauri%20-%20Medium.pdf)
+* [X] [How to check your Anaconda version](Material/How%20to%20check%20your%20Anaconda%20version%20-%20Davide%20Mauri%20-%20Medium.pdf)
 
 * [X] [Tutorial prático de como instalar Anaconda para utilizar Python/R](https://www.linkedin.com/pulse/tutorial-pr%C3%A1tico-de-como-instalar-anaconda-para-gomes-de-lima/)
 
@@ -14,7 +14,7 @@ ___
 > Os dataframes que serão utilizados no treinamento estão [aqui](https://github.com/MathMachado/Python_RFB/tree/master/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
 
 ## Jupyter Notebook
-![JupyterNotebook](https://github.com/MathMachado/Python_RFB/blob/master/Material/JupyterNotebookLogo.png?raw=true)
+![JupyterNotebook](Material/JupyterNotebookLogo.png?raw=true)
 
 > Jupyter Notebook é um ambiente computacional web, interativo para criação de  documentos “Jupyter Notebooks”. O documento é um JSON com um esquema e contém uma lista ordenada de células que podem conter código, texto, fórmulas matemáticas, plotagens e imagens. A extensão dos notebooks é “.ipynb”. Vamos criar nossos programas Python utilizando principalmente o Jupyter Notebook.
 
@@ -62,7 +62,7 @@ Embora não seja escopo deste curso, gostaria de citar outras importanes bibliot
 ___
 ## Outras ferramentas de Data Science
 ### [Google Colab](http://colab.research.google.com)
-![Google Colab](https://github.com/MathMachado/Python_RFB/blob/master/Material/GoogleColab.png?raw=true)
+![Google Colab](Material/GoogleColab.png?raw=true)
 
 > Se você tem uma conta do Google, você pode executar o Python usando o Google Colab. Esta é uma interessante alternativa para usar o Python on-lines sem qualquer instalação. Adicionalmente, você pode integrar o Google Colab com o GitHub ou Google Drive para guardar seus projetos de Data Science. Você pode usar o Jupyter Notebook no Google Colab , permitindo que você use a GPU Tesla K80, ou seja, 12 GB de memória RAM.
 
@@ -73,7 +73,7 @@ ___
 * [X] [Mastering the features of Google Colaboratory !!!](https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701)
 
 ### [Github](https://github.com/)
-![GitHub](https://github.com/MathMachado/Python_RFB/blob/master/Material/GitHub_Logo.png?raw=true)
+![GitHub](Material/GitHub_Logo.png?raw=true)
 [Fonte](https://github.com/logos)
 
 > GitHub é uma plataforma de hospedagem de código para colaboração e controle de versão, permitindo que as equipes de desenvolvimento trabalhem juntos.
@@ -83,7 +83,7 @@ ___
 * [X] [Build Your First Open Source Python Project](https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7).
 
 ### [Docker](https://www.docker.com/)
-![Docker](https://github.com/MathMachado/Python_RFB/blob/master/Material/DckerLogo.png?raw=true)
+![Docker](Material/DckerLogo.png?raw=true)
 
 [Fonte](https://www.docker.com/company/newsroom/media-resources)
 
@@ -176,7 +176,7 @@ ___
 
 ___
 ## CRISP-DM PROCESS
-![CRISP-DM](https://github.com/MathMachado/Python_RFB/blob/master/Material/CRISP-DM.png?raw=true)
+![CRISP-DM](Material/CRISP-DM.png?raw=true)
 [Fonte](https://www.sv-europe.com/crisp-dm-methodology/)
 
 > CRISP-DM (Cross-Industry Process for Data Mining) é uma metodologia amplamente utilizada e estruturada para o planejamento e desenvolvimento de um projeto de Data Mining.
@@ -184,9 +184,9 @@ ___
 ## 1BU - BUSINESS UNDERSTANDING
 > Esta fase é dedicada a entender o que se deseja alcançar a partir de uma perspectiva de negócios. O objetivo deste estágio do processo é descobrir fatores importantes que possam influenciar o resultado do projeto. Há várias metodologias que podem ajudá-lo nesta fase. Sugiro a utilização da metodologia [SMART](https://www.proofhub.com/articles/smart-goal-setting-examples-for-project-managers) para ajudá-lo nesta fase.
 
-![BusinessUnderstanding](https://github.com/MathMachado/Python_RFB/blob/master/Material/BusinessUnderstanding.png?raw=true)
+![BusinessUnderstanding](Material/BusinessUnderstanding.png?raw=true)
 
-![SMART](https://github.com/MathMachado/Python_RFB/blob/master/Material/Smart.png?raw=true)
+![SMART](Material/Smart.png?raw=true)
 
 ### Quais os principais outputs desta fase?
 * [X] Estebelecer claramente os objetivos do Projeto;
@@ -197,7 +197,7 @@ ___
 ## 2DU - DATA UNDERSTANDING
 > O foco desta fase está na coleta e exploração dos dados. Lembre-se de que a precisão dos modelos de ML depende da quantidade e qualidade dos dados. 
 
-![DataUnderstanding](https://github.com/MathMachado/Python_RFB/blob/master/Material/DataUnderstanding.png?raw=true)
+![DataUnderstanding](Material/DataUnderstanding.png?raw=true)
 
 * [X] Exploratory Data Analysis
 > Também conhecido por EDA, nesta fase nosso foco está na exploração do dataframe, descobrir relações e descrever os dados em geral. Utilize-se das técnicas de Data Visualization para detectar relações relevantes entre as variáveis, desequilíbrios de classes e identificar variáveis mais importantes.
@@ -206,7 +206,7 @@ ___
 ## 3DP - DATA PREPARATION
 > Nesta fase o Cientista de Dados vai investir 80% do seu tempo, pois esta fase é dedicada a coletar, preparar, transformar e limpar dados: remover duplicatas, corrigir erros, lidar com Missing Values, normalização, conversões de tipo de dados e etc. 
 
-![DataPreparation](https://github.com/MathMachado/Python_RFB/blob/master/Material/DataPreparation.png?raw=true)
+![DataPreparation](Material/DataPreparation.png?raw=true)
 
 * [X] 3DP_Feature Engineering
 > Nesta fase temos 2 objetivos: corrigir problemas nas variáveis e derivar novas variáveis.
@@ -264,20 +264,20 @@ ___
 ## 4M - MODELING
 > Algoritmos diferentes podem ser aplicados ao mesmo problema. Sugiro aplicar o maior número de algoritmos possveis e escolher o que entregar melhor resultados.
 
-![Modeling](https://github.com/MathMachado/Python_RFB/blob/master/Material/Modeling.png?raw=true)
+![Modeling](Material/Modeling.png?raw=true)
 
 ### Supervised vs Unsupervised Learning
 ![Supervised_X_Unsupervised](https://github.com/MathMachado/Python_RFB/blob/DS_Python/Material/Supervised_X_Unsupervised.jpeg?raw=true)
 
 ### Machine Learning Map
-![Machine Learning Map](https://github.com/MathMachado/Python_RFB/blob/master/Material/ml_map.png?raw=true)
+![Machine Learning Map](Material/ml_map.png?raw=true)
 Source: [Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
 ### Modeling With Python
 * [X] Amostras de treinamento e teste
 > Nesta fase o Cientista de Dados deve selecionar aleatoriamente as amostras de treinamento e teste (ou validação) dos modelos de ML. Geralmente usamos 70% da amostra para treinamento e o restante, 30%, para teste/validação. Outras opções são usar os percentuais 80/20 ou 75/25.
 
-![Cross-Validation](https://github.com/MathMachado/Python_RFB/blob/master/Material/Cross-Validation.png?raw=true)
+![Cross-Validation](Material/Cross-Validation.png?raw=true)
 [Fonte](http://karlrosaen.com/ml/learning-log/2016-06-20/)
 
 * [X] Train the Model
@@ -285,7 +285,7 @@ Source: [Choosing the right estimator](https://scikit-learn.org/stable/tutorial/
 
 As informaçes do dataframe devem estar convenientemente organizadas da seguinte forma:
 
-![X](https://github.com/MathMachado/Python_RFB/blob/master/Material/Architecture.png?raw=true)
+![X](Material/Architecture.png?raw=true)
 [Fonte](https://jakevdp.github.io/PythonDataScienceHandbook/06.00-figure-code.html#Features-and-Labels-Grid)
 
 * [X] Parameter Tuning
@@ -294,7 +294,7 @@ As informaçes do dataframe devem estar convenientemente organizadas da seguinte
 * [X] Ensemble Methods
 > Ensemble Methods envolve a utilização de mais de um algoritmo de ML são treinados para resolver o mesmo problema e combinados para obter melhores resultados.
 
-![Ensemble](https://github.com/MathMachado/Python_RFB/blob/master/Material/Ensemble.png?raw=true)
+![Ensemble](Material/Ensemble.png?raw=true)
 Source: [Building an Ensemble Learning Model Using Scikit-learn](https://hub.packtpub.com/what-is-ensemble-learning/)
 
 ### Sugestão de leitura:
@@ -309,7 +309,7 @@ ___
 ## 5MSE - MODEL SELECTION AND EVALUATE
 > Nesta fase identificamos e aplicamos as melhores métricas (Accuracy, Sensitivity, Specificity, F-Score, AUC, R-Sq, Adj R-SQ, RMSE (Root Mean Square Error)) para avaliar o desempenho/acurácia/performance dos modelos de ML. Treinamos os modelos de ML usando a amostra de treinamento e avaliamos o desempenho/acurácia/performance na amostra de teste/validação.
 
-![Evaluation](https://github.com/MathMachado/Python_RFB/blob/master/Material/Evaluation.png?raw=true)
+![Evaluation](Material/Evaluation.png?raw=true)
 
 * [X] [Métricas](https://scikit-learn.org/stable/modules/model_evaluation.html)
 * [X] [Model Selection and Evaluation](https://scikit-learn.org/stable/model_selection.html#model-selection)
@@ -318,4 +318,4 @@ ___
 ## 6D - Deployment
 > Implementa o modelo (ou conjunto de modelos nos casos de Emsembles Methods).
 
-![Deployment](https://github.com/MathMachado/Python_RFB/blob/master/Material/Deployment.png?raw=true)
+![Deployment](Material/Deployment.png?raw=true)
