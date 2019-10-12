@@ -121,10 +121,10 @@ ___
 * [X] Não existe (pelo menos até agora) processo automático para ML, embora existam ferramentas que nos ajudarão a selecionar as melhores variáveis, na maioria das vezes você terá que sujar a mão.
 
 # Bibliografia usada neste curso
-* [Data Science from Scratch](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/DataScienceFromScratch.png?raw=true)
-* [Hands-On Machine Learning with Scikit-Learn & Tensorflow](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/Hands-On%20MachineLearningWithScikit-Learn&Tensorflow.png?raw=true)
-* [Python for Data Analysis](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/PythonForDataAnalysis.png?raw=true)
-* [Python Data Science Handbook](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/PythonDataScienceHandbook.png?raw=true)
+* [Data Science from Scratch](/Material/DataScienceFromScratch.png?raw=true)
+* [Hands-On Machine Learning with Scikit-Learn & Tensorflow](/Material/Hands-On%20MachineLearningWithScikit-Learn&Tensorflow.png?raw=true)
+* [Python for Data Analysis](/Material/PythonForDataAnalysis.png?raw=true)
+* [Python Data Science Handbook](/Material/PythonDataScienceHandbook.png?raw=true)
 ___
 ## CRISP-DM PROCESS
 ![CRISP-DM](/Material/CRISP-DM.png?raw=true)
