@@ -1,4 +1,4 @@
-![Python](https://github.com/MathMachado/Python_RFB/blob/master/Material/python-logo-master-flat-1024x444.png?raw=true)
+![Python](https://github.com/MathMachado/Materials/blob/master/python-logo-master-flat-1024x444.png?raw=true)
 [Fonte](https://www.python.org/)
 ___
 # Instalar e preparar o ambiente para o treinamento Data Science com Python
