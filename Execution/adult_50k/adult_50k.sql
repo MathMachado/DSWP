@@ -54,3 +54,6 @@ select a.sex, count(a.sex) from adult_50k.adult_data a group by a.sex;
 
 select a."native_country", count(a."native_country") from adult_50k.adult_data a group by a."native_country";
 
+ALTER TABLE adult_50k.adult_data ADD COLUMN id SERIAL PRIMARY KEY;
+ALTER TABLE adult_50k.adult_test ADD COLUMN id SERIAL PRIMARY KEY;
+
