@@ -1,4 +1,4 @@
-![Python](https://github.com/MathMachado/Python_RFB/blob/master/Material/python-logo-master-flat-1024x444.png?raw=true)
+![Python](https://github.com/MathMachado/Materials/blob/master/python-logo-master-flat-1024x444.png?raw=true)
 [Fonte](https://www.python.org/)
 ___
 # Instalar e preparar o ambiente para o treinamento Data Science com Python
@@ -6,9 +6,9 @@ ___
 > Anaconda é uma ferramenta/plataforma para Data Science que permite gerir as distribuições de Python para os sistemas operacionais Windows, Linux e MAC. Então, por favor, instale o [Anaconda](https://www.anaconda.com/distribution/). Neste tutorial, você vai encontrar os passos necessários para instalar o Anaconda no seu sistema operacional. Ao instalar o Anaconda, você estará instalando um ambiente para Data Science com todas as ferramentas necessárias como [Python](https://www.python.org/) e suas principais bibliotecas, [Jupyter Notebook](https://jupyter.org/) e [Spyder](https://www.spyder-ide.org/).
 
 ### Sugestões de leitura:
-* [X] [How to check your Anaconda version](https://github.com/MathMachado/Python_RFB/blob/master/Material/How%20to%20check%20your%20Anaconda%20version%20-%20Davide%20Mauri%20-%20Medium.pdf)
-
+* [X] [How to Install Python on Windows – Possible Issues after Installation](https://data-flair.training/blogs/install-python-windows/)
 * [X] [Tutorial prático de como instalar Anaconda para utilizar Python/R](https://www.linkedin.com/pulse/tutorial-pr%C3%A1tico-de-como-instalar-anaconda-para-gomes-de-lima/)
+* [X] [How to check your Anaconda version](https://github.com/MathMachado/Python_RFB/blob/master/Material/How%20to%20check%20your%20Anaconda%20version%20-%20Davide%20Mauri%20-%20Medium.pdf)
 
 ## Download dos dataframes do treinamento
 > Os dataframes que serão utilizados no treinamento estão [aqui](https://github.com/MathMachado/Python_RFB/tree/master/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
@@ -25,40 +25,6 @@ ___
 * [X] [Getting Started With Jupyter Notebook for Python](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
 * [X] [Bringing the best out of Jupyter Notebooks for Data Science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
  
-___
-## Por que Python
-> Eis aqui algumas razões:
-
-* [X] Because [Python](https://www.python.org/) is a widely used high-level and general-purpose programming language;
-* [X] Open-source;
-* [X] Fácil de aprender;
-* [X] Ferramenta Analítica poderosa;
-* [X] Intuitiva;
-* [X] Alta demanda e popularidade;
-* [X] Aumento exponencial de usuários e comunidade Python;
-* [X] Aumento da produtividade.
-
-### Sugestões de leitura:
-* [X] [Porque usar Python?](https://www.python.org/about/)
-* [Python – Fastest Growing Programming Language](https://www.geeksforgeeks.org/python-fastest-growing-programming-language/amp/)
-
-### Principais bibliotecas Python para Data Science
-* [X] [Pandas](https://pandas.pydata.org/) - Análise e transformação de dados. É uma das bibliotecas mais populares do Python;
-* [X] [SciPy](https://pypi.org/project/scipy/) (Scientific Python) - Rica em funcionalidades para Álgebra Linear, Transformaçes de Fourier, Otimização e muitas outras funçes matemáticas;
-* [X] [NumPy](https://numpy.org/) (Numerical Python) - Uma bibliotecas mais importantes do Python. Muito utilizada para Álgebra Linear, Transformadas de Fourier e geração de números aleatrios. Muitas outras bibliotecas do Python foram escritas em Numpy.
-* [X] [Matplotlib](https://matplotlib.org/);
-	* As referências a seguir apresentam uma vasta variedade de gráficos e exemplos usando Matplotlib:
-		* [Matplotlib Examples](https://matplotlib.org/examples/index.html);
-		* [datavizproject](https://datavizproject.com/) - Vale a pena olhar rapidamente os tipos de gráficos possíveis de produzir com Matplotlib.
-* [X] [Scikit-learn](https://scikit-learn.org/stable/) - Biblioteca para Machine Learning: clustering, Regressão (Linear, Logistic, Ridge, LASSO e outras), classificação, redução de dimensionalidade (Principal Components Analysis, Factor Analysis), Redes Neurais e etc;
-* [X] [Seaborn](https://seaborn.pydata.org/) - Outra biblioteca para data visualization. Veja [aqui]((https://python-graph-gallery.com/seaborn/)) os tipos de gráficos que esta biblioteca é capaz de fazer.
-
-Embora não seja escopo deste curso, gostaria de citar outras importanes bibliotecas para Data Science e Inteligência Artificial:
-
-* [X] [Keras](https://www.tensorflow.org/guide/keras) - Keras é uma API de redes neurais de alto nível e fácil de usar, capaz de rodar sobre o Tensorflow. Para aqueles interessados em Redes Neurais, Deep Learning e Inteligência Artificial, sugiro ler este [artigo](https://towardsdatascience.com/introduction-to-deep-learning-with-keras-17c09e4f0eb2) onde o autor mostra como implementar modelos Deep Learning usando Keras.
-
-* [X] [Tensorflow](https://www.tensorflow.org/) - O Tensorflow é uma biblioteca de código aberto que ajuda os cientistas de dados a desenvolver e treinar modelos de aprendizado de máquina utilizando paralelismo computacional.
-
 ___
 ## Outras ferramentas de Data Science
 ### [Google Colab](http://colab.research.google.com)
@@ -127,26 +93,6 @@ ___
 * [X] [150+ Business Data Science Application in Python](https://towardsdatascience.com/150-business-data-science-application-in-python-72597d90f928)
 
 ___
-## Lei de Pareto e Data Science
-> Afirma que 80% dos efeitos provêm de 20% das causas.
-
->> Surgiu da observação de [Andrew e Jonathan](https://www.manchesterprofessionals.co.uk/profile/jonathan-fitchew) depois de constatarem que os 20% mais talentosos entregavam 80% dos resultados em toda a indústria de vendas. Desta forma, Andrew e Jonathan viram a necessidade de um negócio que recruta de forma diferente, concentrando-se apenas nos 20% melhores da força de trabalho de vendas.
-
-A seguir, outros exemplos da aplicação da Lei de Pareto:
-
-* [X] 80% da riqueza da Itália pertencia a apenas 20% da população;
-* [X] 20% dos melhores funcionários geram 80% dos resultados;
-* [X] 20% dos consumidores geram 80% das receitas/lucros;
-
-> Em nosso caso, estou interessado e focado em transmitir-lhes 20% dos conteúdos realmente relevantes de Data Science que lhe possibilite analisar dados e construir modelos de Machine Learning em 80% das vezes... O que você acha disso?
-
-### Sugestões de leitura:
-* [X] [Princípio de Pareto: 80/20](https://vidaorganizada.com/2019/08/05/principio-de-pareto-80-20/)
-
-### Porque a Lei de Pareto é muito importante no aprendizado de Data Science e Python?
-> Python é uma linguagem muito versátil. Com isso quero dizer que há várias maneiras de fazer a mesma tarefa. Se tentarmos explorar todas as formas de fazer a tarefa XPTO, perderemos muito tempo. Portanto, vou me concentrar no que é mais importante.
-
-___
 ## O que eu espero
 
 * [X] Todo o material será entregue digitalmente. Não se preocupe em copiar! Gostaria da sua total atenção, pois temos muito conteúdo. Além disso, seu foco é primordial para aprender os conceitos;
@@ -174,6 +120,11 @@ ___
 * [X] Todos os modelos são falsos, mas alguns são úteis. [Quotations of George Box](https://en.wikipedia.org/wiki/All_models_are_wrong)
 * [X] Não existe (pelo menos até agora) processo automático para ML, embora existam ferramentas que nos ajudarão a selecionar as melhores variáveis, na maioria das vezes você terá que sujar a mão.
 
+# Bibliografia usada neste curso
+* [Data Science from Scratch](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/DataScienceFromScratch.png?raw=true)
+* [Hands-On Machine Learning with Scikit-Learn & Tensorflow](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/Hands-On%20MachineLearningWithScikit-Learn&Tensorflow.png?raw=true)
+* [Python for Data Analysis](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/PythonForDataAnalysis.png?raw=true)
+* [Python Data Science Handbook](https://github.com/MathMachado/Python4DS/blob/DS_Python/Material/PythonDataScienceHandbook.png?raw=true)
 ___
 ## CRISP-DM PROCESS
 ![CRISP-DM](https://github.com/MathMachado/Python_RFB/blob/master/Material/CRISP-DM.png?raw=true)
@@ -313,6 +264,8 @@ ___
 
 * [X] [Métricas](https://scikit-learn.org/stable/modules/model_evaluation.html)
 * [X] [Model Selection and Evaluation](https://scikit-learn.org/stable/model_selection.html#model-selection)
+
+Eu comprei o curso: https://www.udemy.com/course/machine-learning-in-python-random-forest-adaboost/. Dá pra aproveitar alguma coisa?
 
 ___
 ## 6D - Deployment
