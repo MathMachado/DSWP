@@ -60,7 +60,6 @@ Neste treinamento, vou utilizar o Google Colab como principal ferramenta de trab
 * [Mastering the features of Google Colaboratory !!!](https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701)
 
 ## 1.4. [Github](https://github.com/)
-https://github.com/MathMachado/Materials/blob/master/GitHub_Logo.png
 
 ![GitHub](https://github.com/MathMachado/Materials/blob/master/GitHub_Logo.png?raw=true)
 [Fonte](https://github.com/logos)
