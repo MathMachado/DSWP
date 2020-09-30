@@ -1,11 +1,11 @@
 <center><h1 style="font-size:60px;"><b><i>DSWP - DATA SCIENCE WITH PYTHON</i></b></h1></center>
 
 # 0. Avisos, regras e um pouquinho de como eu gostaria que as coisas funcionassem
-## Ferramentas que usaremos nesse treinamento: Google Colab, Github e [Turtoise](https://tortoisegit.org/).
+## Ferramentas que usaremos nesse treinamento: Google Colab, Github e Turtoise.
 
 ## Grupos de trabalho
 > Vamos dividí-los em grupos para trabalhem colaborativamente em busca de soluções para os problemas que serão propostos. Portanto, cada aluno será aleatoriamente atribuído a um grupo.
-* Identifique seus parceiros;
+* Identifique seus parceiros de grupo;
 * Se organizem: criem um canal de comunicação no Telegram, WhatsApp, Discord e etc para vosso grupo;
 * Definam o líder do grupo;
 * O grupo serve para discutirem alternativas/soluções para os problemas que vos serão apresentados!
@@ -71,7 +71,7 @@ https://github.com/MathMachado/Materials/blob/master/GitHub_Logo.png
 * [Introduction to Git and GitHub for Python Developers](https://realpython.com/python-git-github-intro/);
 * [Build Your First Open Source Python Project](https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7).
 
-## 1.5. [Docker](https://www.docker.com/)
+## 1.5. [Docker](https://www.docker.com/) - **NÃO SE PREOCUPEM COM O DOCKER, POIS NÃO VAMOS USAR NESTE TREINAMENTO**
 ![Docker](https://github.com/MathMachado/Materials/blob/master/DckerLogo.png?raw=true)
 
 [Fonte](https://www.docker.com/company/newsroom/media-resources)
@@ -83,6 +83,8 @@ https://github.com/MathMachado/Materials/blob/master/GitHub_Logo.png
 * [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 * [Learn Enough Docker to be Useful](https://towardsdatascience.com/learn-enough-docker-to-be-useful-b7ba70caeb4b)
 
+## 1.6. [Turtoise](https://tortoisegit.org/)
+Turtoise é um _client_ para Git em Windows. Resumidamente, você consegue via Turtoise aplicar todos os comandos do Git usando point-and-click.
 ___
 # 2. Download dos dataframes do treinamento
 > Os dataframes que serão utilizados no treinamento estarão [aqui](https://github.com/MathMachado/Python_RFB/tree/master/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
@@ -168,20 +170,20 @@ ___
 * Produzir o Project Plan (Recursos, limitações, suposições, riscos e etc);
 * Definir critérios de sucesso do Projeto;
 
-## 7.2. 2DU - DATA UNDERSTANDING
+## 7.2. 2DU - DATA UNDERSTANDING (Entendimento dos Dados)
 > O foco desta fase está na coleta e exploração dos dados. Lembre-se de que a precisão dos modelos de Machine Learning depende da quantidade e qualidade dos dados. 
 
 ![DataUnderstanding](https://github.com/MathMachado/Materials/blob/master/DataUnderstanding.png?raw=true)
 
-### 7.2.1. EDA - Exploratory Data Analysis
+### 7.2.1. EDA - Exploratory Data Analysis (Análise Exploratória de dados)
 > Também conhecido por EDA, nesta fase nosso foco está na exploração do dataframe, descobrir relações e descrever os dados em geral. Utilize-se das técnicas de Data Visualization para detectar relações relevantes entre as variáveis, desequilíbrios de classes e identificar variáveis mais importantes.
 
-## 7.3. 3DP - DATA PREPARATION
+## 7.3. 3DP - DATA PREPARATION (Preparação dos Dados)
 > Nesta fase o Cientista de Dados vai investir 80% do seu tempo, pois esta fase é dedicada a coletar, preparar, transformar e limpar dados: remover duplicatas, corrigir erros, lidar com Missing Values, normalização, conversões de tipo de dados e etc. 
 
 ![DataPreparation](https://github.com/MathMachado/Materials/blob/master/DataPreparation.png?raw=true)
 
-### 7.3.1. 3DP_Feature Engineering
+### 7.3.1. 3DP_Feature Engineering (Engenharia de Dados)
 > Nesta fase temos 2 objetivos: corrigir problemas nas variáveis e derivar novas variáveis.
 
 * É uma atividade que requer muita criatividade, intuição, conhecimento dos dados e do problema a ser resolvido;
@@ -195,13 +197,13 @@ ___
 	* Fase 1: O foco desta fase é corrigr possveis problemas de preenchimento das variáveis. Por exemplo, considere a variável 'Sexo' com os seguintes preenchimentos: m, M, Male, Men, Man, mALE, MALE, tudo isso para designar o sexo masculino. Isto é um problema de preenchimento e nesta fase vamos corrigir esses problemas.
 	* Fase 2: Criar mais atributos a partir dos atributos disponíveis.
 
-### 7.3.2. 3DP_Missing Values Handling
+### 7.3.2. 3DP_Missing Values Handling (Lidando com valores faltantes nos dDados)
 > Nosso foco nesta fase é identificar e tratar os Missing Values que neste curso são chamados de NaN (Not a Number). A tarefa de tratar os NaN são também chamados de Imputing Missing Values. Quando estamos diante de uma variável com grande número de NaN's (tanto numricas quanto categóricas) uma prática interessante é construir uma variável indicadora para indicar se aquele registro é ou não um NaN. Veremos isso mais tarde na prática.
 
-### 7.3.3. 3DP_Outliers Handling
+### 7.3.3. 3DP_Outliers Handling (Lindando com _Outliers_ nos Dados)
 > Nosso foco aqui é identificar e tratar os Outlier. Tratar outliers significa, por exemplo, descartá-lo/deletá-lo ou imputá-lo usando Média/Mediana/Moda. Outra alternativa é aplicar o Máximo para os Outliers superiores e Mínimo para os outliers inferiores. O Gráfico de Boxplot pode ajudar nesta fase. Uma outra alternativa interessante é usar K-Means para agrupar as observaçes da variável. Neste caso, ter-se-à um cluster com os outliers, tanto superiores quanto inferiores.
 
-### 7.3.4. 3DP_Data Transformation
+### 7.3.4. 3DP_Data Transformation (Transformação de Dados)
 > Significa colocar as variáveis numa mesma escala. Há várias transformações que podem ser aplicadas nesta fase. Principais transformações que podem ser aplicadas nas variáveis:
 
 #### **StandardScaler**
@@ -287,5 +289,6 @@ ___
 ___
 ## 7.6. 6D - Deployment (ou implantação dos Modelos de Machine Learning)
 > Implementa o modelo (ou conjunto de modelos nos casos de Emsembles Methods).
+>> "For every $1 you spend developing an algorith, you must spend $100 to deploy and support it". Tom Davenport
 
 ![Deployment](https://github.com/MathMachado/Materials/blob/master/Deployment.png?raw=true)
