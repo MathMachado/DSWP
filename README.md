@@ -1,266 +1,188 @@
-![Python](https://github.com/MathMachado/DSWP/blob/master/Material/python-logo-master-flat-1024x444.png?raw=true)
-[Fonte](https://www.python.org/)
+<center><h1 style="font-size:60px;"><b><i>DSWP - DATA SCIENCE WITH PYTHON</i></b></h1></center>
 
-# **Treinamento Data Science com Python**
-- [Instalar e preparar o ambiente para o treinamento Data Science com Python](#instalar-e-preparar-o-ambiente-para-o-treinamento-data-science-com-python)
-  * [Instalar Anaconda](#instalar-anaconda)
-  * [Jupyter Notebook](#Jupyter-Notebook)
-  * [Download dos dataframes do treinamento](#Download-dos-dataframes-do-treinamento)
-  * [Por que Python](#por-que-python)
-    * [Principais bibliotecas Python para Data Science](#Principais-bibliotecas-Python-para-Data-Science)
-  * [Outras ferramentas de Data Science](#outras-ferramentas-de-data-science)
-  * [Objetivos do treinamento](#objetivos-do-treinamento)
-  * [Lei de Pareto e Data Science](#lei-de-pareto-e-data-science)
-  * [O que eu espero](#o-que-eu-espero)
-  * [Fatos Importantes](#fatos-importantes)
-- [Introduction to Python](#introduction-to-python)
-- [Data Analysis With Pandas](#data-analysis-with-pandas)
-- [Data Visualization with Matplotlib and Seaborn](#data-visualization-with-matplotlib-and-seaborn)
-- [Advanced Resources](#advanced-resources)
-- [Machine Learning](#machine-learning)
-    * [CRISP-DM Process](#CRISP-DM-Process)
-	* [1BU - Business Understanding](#1BU---business-understanding)
-	* [2DU - Data Understanding](#2DU---data-understanding)
-		* [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-	* [3DP - Data Preparation](#3DP---data-preparation)
-	* [4M - Modeling](#4M---Modeling)
-		* [Supervised Learning](#supervised-learning)
-		* [Unsupervised Learning](#unsupervised-learning)
-	* [5MSE - Model Selection and Evaluate](#5MSE---model-selection-and-evaluate)
-	* [6D - Deployment](#6D---Deployment)
-- [Projects](#projects)
-- [Melhorias](#Melhorias)
-___
-# Instalar e preparar o ambiente para o treinamento Data Science com Python
-## Instalar Anaconda
+# 0. Avisos, regras e um pouquinho de como eu gostaria que as coisas funcionassem
+## Ferramentas que usaremos nesse treinamento: Google Colab, Github e Turtoise.
+
+## Grupos de trabalho
+> Vamos dividí-los em grupos para trabalhem colaborativamente em busca de soluções para os problemas que serão propostos. Portanto, cada aluno será aleatoriamente atribuído a um grupo.
+* Identifique seus parceiros de grupo;
+* Se organizem: criem um canal de comunicação no Telegram, WhatsApp, Discord e etc para vosso grupo;
+* Definam o líder do grupo;
+* O grupo serve para discutirem alternativas/soluções para os problemas que vos serão apresentados!
+
+## Alguns avisos
+
+* **Todo o material será entregue digitalmente via Github**. Não se preocupe em copiar! Gostaria da sua total atenção, pois temos muito conteúdo. Além disso, seu foco é primordial para aprender os conceitos;
+* **Faça perguntas**! Se alguma coisa (material, explicação e etc) não estiver claro, pergunte-me. Se o material não estiver claro, notifique-me para que eu possa melhorá-lo. 
+* **Esse material é e sempre será um trabalho em andamento com melhoria contínua**. Por favor, ajude-me a melhorá-lo porque ele estará disponível aos demais colegas que não tiveram a oportunidade de estar aqui conosco hoje;
+* Dependendo do rumo que as coisas tomarem, pode ser que eu não consiga cobrir todo o conteúdo do curso, mas prometo me esforçar para cobrir pelo menos os pontos principais da Ciência de Dados;
+* Se você identificar qualquer aplicação deste conhecimento/conteúdo em sua área/departamento, por favor, compartilhe comigo. Mapear as necessidades dos clientes faz parte do processo de melhoria contínua da formação, além de me ajudar a pensar e construir exemplos/estudos de caso/projetos cada vez mais associados à realidade dos clientes;
+* **Participe e compartilhe conhecimento, não importa quão tímido (a) ou reservada você seja**!
+* **Sua contribuição é muito importante**;
+* **Estou aqui para ajudá-lo, mesmo quando o curso acabar**!
+* **Seu feedback honesto e sincero é um presente pra mim, não importa o quanto você o julgue difícil/duro**;
+* **Estou aqui para aprender também**!
+
+# 1. Instalar e preparar o ambiente para o treinamento Data Science com Python
+## 1.1. Instalar Anaconda
 > Anaconda é uma ferramenta/plataforma para Data Science que permite gerir as distribuições de Python para os sistemas operacionais Windows, Linux e MAC. Então, por favor, instale o [Anaconda](https://www.anaconda.com/distribution/). Neste tutorial, você vai encontrar os passos necessários para instalar o Anaconda no seu sistema operacional. Ao instalar o Anaconda, você estará instalando um ambiente para Data Science com todas as ferramentas necessárias como [Python](https://www.python.org/) e suas principais bibliotecas, [Jupyter Notebook](https://jupyter.org/) e [Spyder](https://www.spyder-ide.org/).
 
 ### Sugestões de leitura:
-* [X] [How to check your Anaconda version](https://github.com/MathMachado/DSWP/blob/master/Material/How%20to%20check%20your%20Anaconda%20version%20-%20Davide%20Mauri%20-%20Medium.pdf)
+* [How to Install Python on Windows – Possible Issues after Installation](https://data-flair.training/blogs/install-python-windows/)
+* [Tutorial prático de como instalar Anaconda para utilizar Python/R](https://www.linkedin.com/pulse/tutorial-pr%C3%A1tico-de-como-instalar-anaconda-para-gomes-de-lima/)
+* [How to check your Anaconda version](https://github.com/MathMachado/Materials/blob/master/How%20to%20check%20your%20Anaconda%20version%20-%20Davide%20Mauri%20-%20Medium.pdf)
 
-## Download dos dataframes do treinamento
-> Os dataframes que serão utilizados no treinamento estão [aqui](https://github.com/MathMachado/DSWP/tree/master/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
+## 1.2. Jupyter Notebook
+![JupyterNotebook](https://github.com/MathMachado/Materials/blob/master/JupyterNotebookLogo.png?raw=true)
 
-## Jupyter Notebook
-![JupyterNotebook](https://github.com/MathMachado/DSWP/blob/master/Material/JupyterNotebookLogo.png?raw=true)
-
-> Jupyter Notebook é um ambiente computacional web, interativo para criação de  documentos “Jupyter Notebooks”. O documento é um documento JSON com um esquema e contém uma lista ordenada de células que podem conter código, texto, fórmulas matemáticas, plotagens e imagens. A extensão dos notebooks é “.ipynb”. Vamos criar nossos programas Python utilizando principalmente o Jupyter Notebook.
-
-### Sugestões de leitura:
-* [X] [Jupyter Notebook Tutorial: The Definitive Guide](https://www.datacamp.com/community/tutorials/tutorial)
-* [X] [Jupyter Notebook for Beginners: A Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/);
-* [X] [Supercharging Jupyter Notebooks](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18);
-* [X] [Getting Started With Jupyter Notebook for Python](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
-* [X] [Bringing the best out of Jupyter Notebooks for Data Science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
- 
-___
-## Por que Python
-> Eis aqui algumas razões:
-
-* [X] Because [Python](https://www.python.org/) is a widely used high-level and general-purpose programming language;
-* [X] Open-source;
-* [X] Fácil de aprender;
-* [X] Ferramenta Analítica poderosa;
-* [X] Intuitiva;
-* [X] Alta demanda e popularidade;
-* [X] Aumento exponencial de usuários e comunidade Python;
-* [X] Aumento da produtividade.
+> Jupyter Notebook é um ambiente computacional web, interativo para criação de  documentos “Jupyter Notebooks”. O documento é um JSON com um esquema e contém uma lista ordenada de células que podem conter código, texto, fórmulas matemáticas, plotagens e imagens. A extensão dos notebooks é “.ipynb”. Vamos criar nossos programas Python utilizando principalmente o Jupyter Notebook.
 
 ### Sugestões de leitura:
-* [X] [Porque usar Python?](https://www.python.org/about/)
-* [Python – Fastest Growing Programming Language](https://www.geeksforgeeks.org/python-fastest-growing-programming-language/amp/)
+* [Jupyter Notebook Tutorial: The Definitive Guide](https://www.datacamp.com/community/tutorials/tutorial)
+* [Jupyter Notebook for Beginners: A Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/);
+* [Supercharging Jupyter Notebooks](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18);
+* [Getting Started With Jupyter Notebook for Python](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
+* [Bringing the best out of Jupyter Notebooks for Data Science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
 
-### Principais bibliotecas Python para Data Science
-* [X] [Pandas](https://pandas.pydata.org/) - Análise e transformação de dados. É uma das bibliotecas mais populares do Python;
-* [X] [SciPy](https://pypi.org/project/scipy/) (Scientific Python) - Rica em funcionalidades para Álgebra Linear, Transformaçes de Fourier, Otimização e muitas outras funçes matemáticas;
-* [X] [NumPy](https://numpy.org/) (Numerical Python) - Uma bibliotecas mais importantes do Python. Muito utilizada para Álgebra Linear, Transformadas de Fourier e geração de números aleatrios. Muitas outras bibliotecas do Python foram escritas em Numpy.
-* [X] [Matplotlib](https://matplotlib.org/);
-	* As referências a seguir apresentam uma vasta variedade de gráficos e exemplos usando Matplotlib:
-		* [Matplotlib Examples](https://matplotlib.org/examples/index.html);
-		* [datavizproject](https://datavizproject.com/) - Vale a pena olhar rapidamente os tipos de gráficos possíveis de produzir com Matplotlib.
-* [X] [Scikit-learn](https://scikit-learn.org/stable/) - Biblioteca para Machine Learning: clustering, Regressão (Linear, Logistic, Ridge, LASSO e outras), classificação, redução de dimensionalidade (Principal Components Analysis, Factor Analysis), Redes Neurais e etc;
-* [X] [Seaborn](https://seaborn.pydata.org/) - Outra biblioteca para data visualization. Veja [aqui]((https://python-graph-gallery.com/seaborn/)) os tipos de gráficos que esta biblioteca é capaz de fazer.
+## 1.3. [Google Colab](http://colab.research.google.com)
+![Google Colab](https://github.com/MathMachado/Materials/blob/master/GoogleColab.png?raw=true)
+                
+> Se você tem uma conta do Google, você pode usar o Google Colab para executar seus scripts Python. Esta é uma interessante e rápida alternativa para usar o Python on-line sem qualquer instalação. Adicionalmente, você pode:
+* integrar o Google Colab com o GitHub ou Google Drive para guardar seus projetos de Data Science;
+* usar o Jupyter Notebook no Google Colab, permitindo que você use a GPU Tesla K80, ou seja, aproximadamente 12 GB de memória RAM;
 
-Embora não seja escopo deste curso, gostaria de citar outras importanes bibliotecas para Data Science e Inteligência Artificial:
-
-* [X] [Keras](https://www.tensorflow.org/guide/keras) - Keras é uma API de redes neurais de alto nível e fácil de usar, capaz de rodar sobre o Tensorflow. Para aqueles interessados em Redes Neurais, Deep Learning e Inteligência Artificial, sugiro ler este [artigo](https://towardsdatascience.com/introduction-to-deep-learning-with-keras-17c09e4f0eb2) onde o autor mostra como implementar modelos Deep Learning usando Keras.
-
-* [X] [Tensorflow](https://www.tensorflow.org/) - O Tensorflow é uma biblioteca de código aberto que ajuda os cientistas de dados a desenvolver e treinar modelos de aprendizado de máquina utilizando paralelismo computacional.
-
-___
-## Outras ferramentas de Data Science
-### [Google Colab](http://colab.research.google.com)
-![Google Colab](https://github.com/MathMachado/DSWP/blob/master/Material/GoogleColab.png?raw=true)
-
-> Se você tem uma conta do Google, você pode executar o Python usando o Google Colab. Esta é uma interessante alternativa para usar o Python on-lines sem qualquer instalação. Adicionalmente, você pode integrar o Google Colab com o GitHub ou Google Drive para guardar seus projetos de Data Science. Você pode usar o Jupyter Notebook no Google Colab , permitindo que você use a GPU Tesla K80, ou seja, 12 GB de memória RAM.
+Neste treinamento, vou utilizar o Google Colab como principal ferramenta de trabalho.
 
 ### Sugestões de leitura:
-* [X] [Getting Started With Google Colab](https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c)
-* [X] [Getting the Most Out of Your Google Colab (Tutorial)](https://medium.com/@oribarel/getting-the-most-out-of-your-google-colab-2b0585f82403)
-* [X] [How to use Google Colab](https://www.geeksforgeeks.org/how-to-use-google-colab/)
-* [X] [Mastering the features of Google Colaboratory !!!](https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701)
+* [Getting Started With Google Colab](https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c)
+* [Getting the Most Out of Your Google Colab (Tutorial)](https://medium.com/@oribarel/getting-the-most-out-of-your-google-colab-2b0585f82403)
+* [How to use Google Colab](https://www.geeksforgeeks.org/how-to-use-google-colab/)
+* [Mastering the features of Google Colaboratory !!!](https://towardsdatascience.com/mastering-the-features-of-google-colaboratory-92850e75701)
 
-### [Github](https://github.com/)
-![GitHub](https://github.com/MathMachado/DSWP/blob/master/Material/GitHub_Logo.png?raw=true)
+## 1.4. [Github](https://github.com/)
+
+![GitHub](https://github.com/MathMachado/Materials/blob/master/GitHub_Logo.png?raw=true)
 [Fonte](https://github.com/logos)
 
-> GitHub é uma plataforma de hospedagem de código para colaboração e controle de versão, permitindo que as equipes de desenvolvimento trabalhem juntos.
+> GitHub é uma plataforma de hospedagem de código para colaboração e controle de versão, permitindo que as equipes de desenvolvimento trabalhem juntos. Neste treinamento, vamos usar muito o Github para colaboração e controle de versão dos Notebooks.
 
 ### Sugestões de leitura:
-* [X] [Introduction to Git and GitHub for Python Developers](https://realpython.com/python-git-github-intro/);
-* [X] [Build Your First Open Source Python Project](https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7).
+* [Introduction to Git and GitHub for Python Developers](https://realpython.com/python-git-github-intro/);
+* [Build Your First Open Source Python Project](https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7).
 
-### [Docker](https://www.docker.com/)
-![Docker](https://github.com/MathMachado/DSWP/blob/master/Material/DckerLogo.png?raw=true)
+## 1.5. [Docker](https://www.docker.com/) - **NÃO SE PREOCUPEM COM O DOCKER, POIS NÃO VAMOS USAR NESTE TREINAMENTO**
+![Docker](https://github.com/MathMachado/Materials/blob/master/DckerLogo.png?raw=true)
 
 [Fonte](https://www.docker.com/company/newsroom/media-resources)
 
 > Docker é uma alternatia mais eficiente à virtualização que garante maior facilidade na criação e administração de ambientes isolados chamados de containers, tendo por objetivo disponibilizar software/soluções para o usuário final de forma mais rápida.
 
 ### Sugestões de leitura:
-* [X] [AFINAL, O QUE É DOCKER?](https://www.opservices.com.br/o-que-e-docker/)
-* [X] [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
-* [X] [Learn Enough Docker to be Useful](https://towardsdatascience.com/learn-enough-docker-to-be-useful-b7ba70caeb4b)
+* [AFINAL, O QUE É DOCKER?](https://www.opservices.com.br/o-que-e-docker/)
+* [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
+* [Learn Enough Docker to be Useful](https://towardsdatascience.com/learn-enough-docker-to-be-useful-b7ba70caeb4b)
 
+## 1.6. [Turtoise](https://tortoisegit.org/)
+Turtoise é um _client_ para Git em Windows. Resumidamente, você consegue via Turtoise aplicar todos os comandos do Git usando point-and-click.
 ___
-## Objetivos do Treinamento
-### Objetivo Geral:
+# 2. Download dos dataframes do treinamento
+> Os dataframes que serão utilizados no treinamento estarão [aqui](https://github.com/MathMachado/Python_RFB/tree/master/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
+___
+# 3. Objetivos do Treinamento
+## 3.1.  Objetivo Geral:
 > Machine Learning é a principal ferramenta para a Inteligência Artificial e é um dos campos científicos mais amplamente estudados atualmente. Uma quantidade considerável de literatura foi publicada sobre Machine Learning. Nosso objetivo neste treinamento é fornecer os aspectos mais importantes do Machine Learning usando o Python.
 
-### Neste treinamento vamos estudar e aprender:
+### 3.1.1. Neste treinamento vamos estudar e aprender:
 
-* [X] os princípios e técnicas fundamentais de Data Science através de exemplos e casos reais e práticos;
+* os princípios e técnicas fundamentais de Data Science através de exemplos, casos reais e práticos;
 
-* [X] Formular uma solução plausível e estratégica para resolver probemas da Ciência de Dados usando o "Data Science Process" incluindo: formulação, EDA (Análise Exploratória de Dados incluindo Feature Engineering), Modelagem (incluindo hyperparameters de tunning e modelos de Machine Learning), Avaliação (incluindo Validação Cruzada), Implantação, Monitoramento e Feedback;
+* Formular uma solução plausível e estratégica para resolver probemas da Ciência de Dados usando o "Data Science Process" incluindo: formulação, EDA (Análise Exploratória de Dados incluindo Feature Engineering), Modelagem (incluindo hyperparameters de tunning e modelos de Machine Learning), Avaliação (incluindo Validação Cruzada), Implantação, Monitoramento e Feedback;
 
-* [X] Usar EDA para avaliar e entender o impacto das anormalidades de dados (Missing Values e Outliers), bem como aplicar o tratamento apropriado;
+* Usar EDA para avaliar e entender o impacto das anormalidades de dados (Missing Values e Outliers), bem como aplicar o tratamento apropriado;
 
-* [X] Usar EDA para identificar variáveis/features redundantes. Nosso objetivo será selecionar as variáveis mais importantes para o modelo e tomada de decisão.
+* Usar EDA para identificar variáveis/features redundantes. Nosso objetivo será selecionar as variáveis mais importantes para o modelo e tomada de decisão.
 
-* [X] Entender o impacto das amostra desequilibradas (Imbalanced samples);
+* Entender o impacto das amostra desequilibradas (Imbalanced samples) nos modelos de Machine Learning;
 
-* [X] Preparar dataframes (conjunto de dados) para aplicação dos algoritmos mais apropriados, quer sejam algoritmos de aprendizado supervisionado e não supervisionado, incluindo a divisão apropriada do conjunto de dados para treinamento, validação e teste;
+* Preparar dataframes (conjunto de dados) para aplicação dos algoritmos de Machine Learning mais apropriados, incluindo a divisão apropriada do conjunto de dados para treinamento, validação e teste;
 
-* [X] Entender e aplicar as principais transformações de dados;
+* Entender e aplicar as principais transformações de dados;
 
-* [X] Entender, identificar e aplicar o algoritmo apropriado para um determinado problema, bem como apresentar os prós e contras de cada algoritmo que poderia ser aplicado ao problema;
+* Entender, identificar e aplicar o algoritmo de Machine Learning apropriado para um determinado problema, bem como apresentar os prós e contras de cada algoritmo;
 
-* [X] Entender, identificar e aplicar adequadamente a métrica de avaliação dos modelos de Machine Learning;
+* Entender, identificar e aplicar adequadamente métricas para avaliação da qualidade dos modelos de Machine Learning;
 
-* [X] Entender, identificar, evitar e/ou tratar problemas relacionados à overfitting;
-
-### Sugestões de leitura:
-* [X] [As melhores plataformas de Competição para Cientistas de Dados](https://medium.com/data-hackers/plataformas-de-competi%C3%A7%C3%A3o-para-cientistas-de-dados-a26f86fdbda3)
-* [X] [The 5 Sampling Algorithms every Data Scientist need to know](https://towardsdatascience.com/the-5-sampling-algorithms-every-data-scientist-need-to-know-43c7bc11d17c)
-* [X] [150+ Business Data Science Application in Python](https://towardsdatascience.com/150-business-data-science-application-in-python-72597d90f928)
-
-___
-## Lei de Pareto e Data Science
-> Afirma que 80% dos efeitos provêm de 20% das causas.
-
->> Surgiu da observação de [Andrew e Jonathan](https://www.manchesterprofessionals.co.uk/profile/jonathan-fitchew) depois de constatarem que os 20% mais talentosos entregavam 80% dos resultados em toda a indústria de vendas. Desta forma, Andrew e Jonathan viram a necessidade de um negócio que recruta de forma diferente, concentrando-se apenas nos 20% melhores da força de trabalho de vendas.
-
-A seguir, outros exemplos da aplicação da Lei de Pareto:
-
-* [X] 80% da riqueza da Itália pertencia a apenas 20% da população;
-* [X] 20% dos melhores funcionários geram 80% dos resultados;
-* [X] 20% dos consumidores geram 80% das receitas/lucros;
-
-> Em nosso caso, estou interessado e focado em transmitir-lhes 20% dos conteúdos realmente relevantes de Data Science que lhe possibilite analisar dados e construir modelos de Machine Learning em 80% das vezes... O que você acha disso?
+* Entender, identificar, evitar e/ou tratar problemas relacionados à overfitting;
 
 ### Sugestões de leitura:
-* [X] [Princípio de Pareto: 80/20](https://vidaorganizada.com/2019/08/05/principio-de-pareto-80-20/)
-
-### Porque a Lei de Pareto é muito importante no aprendizado de Data Science e Python?
-> Python é uma linguagem muito versátil. Com isso quero dizer que há várias maneiras de fazer a mesma tarefa. Se tentarmos explorar todas as formas de fazer a tarefa XPTO, perderemos muito tempo. Portanto, vou me concentrar no que é mais importante.
-
-___
-## O que eu espero
-
-* [X] Todo o material será entregue digitalmente. Não se preocupe em copiar! Gostaria da sua total atenção, pois temos muito conteúdo. Além disso, seu foco é primordial para aprender os conceitos;
-* [X] Faça perguntas! Se alguma coisa (material, explicação e etc) não estiver claro, pergunte-me. Se o material não estiver claro, notifique-me para que eu possa melhorá-lo. 
-* [X] Esse material é e sempre será um trabalho em andamento com melhoria contínua. Por favor, ajude-me a melhorá-lo porque ele estará disponível aos demais colegas que não tiveram a oportunidade de estar aqui conosco hoje;
-* [X] Dependendo do rumo que as coisas tomarem, pode ser que eu não consiga cobrir todo o conteúdo do curso, mas prometo me esforçar para cobrir pelo menos os pontos principais da Ciência de Dados;
-* [X] Se você identificar qualquer aplicação deste conhecimento/conteúdo em sua área/departamento, por favor, compartilhe comigo. Mapear as necessidades dos clientes faz parte do processo de melhoria contínua da formação, além de me ajudar a pensar e construir exemplos/estudos de caso/projetos cada vez mais associados à realidade dos clientes;
-* [X] Participe e compartilhe conhecimento, não importa quão tímido (a) ou reservada você seja!
-* [X] Sua contribuição é muito importante;
-* [X] Estou aqui para ajudá-lo, mesmo quando o curso acabar;
-* [X] Seu feedback honesto e sincero é um presente pra mim, não importa o quanto você o julgue difícil;
-* [X] Estou aqui para aprender também!
+* [As melhores plataformas de Competição para Cientistas de Dados](https://medium.com/data-hackers/plataformas-de-competi%C3%A7%C3%A3o-para-cientistas-de-dados-a26f86fdbda3)
+* [The 5 Sampling Algorithms every Data Scientist need to know](https://towardsdatascience.com/the-5-sampling-algorithms-every-data-scientist-need-to-know-43c7bc11d17c)
+* [150+ Business Data Science Application in Python](htts://towardsdatascience.com/150-business-data-science-application-in-python-72597d90f928)
 
 ___
-## Fatos importantes
+# 4. A Lei de Pareto
+Foco no mais relevante e importante primeiro! A ideia do curso é aplicar a *Lei de Pareto* para que você aprenda e domine 20% dos contúdos de Data Science e Python que lhe permita fazer 80% do trabalho necessário de um CD.
 
-* [X] Dados nunca estão limpos e é no tratamento e preparação dos dados que o Cientista de Dados gasta aproximadamente 80% do seu tempo. Considere que se "entra lixo --> sai lixo". Mais uma: o melhor algoritmo de ML do mundo não vai resolver o problema caso os dados não tenham qualidade.
-* [X] 95% dos problemas não requerem Deep Learning. Veremos alguns exemplos em que os modelos simples e tradicionais entregam ótimos resultados em comparação com modelos mais sofisticados;
-* [X] Em 90% dos casos, Generalized Linear Models (GLM) vai resolver o problema;
-* [X] Big Data é somente mais uma ferramenta;
-* [X] Sugiro fortemente você abrir a mente para o paradigma Bayesiano. Pelo menos para mim, faz mais sentido; Quer um exemplo?
-* [X] Na maioria das vezes, ninguém se importa com o que você fez. Só querem o resultado.
-* [X] Academia e Business são mundos totalmente diferentes;
-* [X] Apresentação é a chave - Aprenda a vender suas ideias e domine o Powerpoint;
-* [X] Todos os modelos são falsos, mas alguns são úteis. [Quotations of George Box](https://en.wikipedia.org/wiki/All_models_are_wrong)
-* [X] Não existe (pelo menos até agora) processo automático para ML, embora existam ferramentas que nos ajudarão a selecionar as melhores variáveis, na maioria das vezes você terá que sujar a mão.
+* A seguir, outros exemplos da aplicação da Lei de Pareto:
+	* 80% da riqueza da Itália pertence a apenas 20% da população;
+	* 20% dos melhores funcionários geram 80% dos resultados;
+	* 20% dos consumidores geram 80% das receitas/lucros;
 
-___
-# Machine Learning
-> "__Information is the oil of the 21st century, and analytics is the combustion engine__." - Peter Sondergaard, SVP, Garner Research;
->> Neste capítulo, vamos estudar as ferramentas, técnicas e algoritmos de Machine Learning que podem ser aplicados para resolver problemas de negócio.
-	* No entanto, gostaria de frisar que Machine Learning é a parte mais sexy do trabalho! Gostaria de lembrar, mais uma vez, que 80% do trabalho está concentrada na parte mais difícil, que é o da preparação e tratamento dos dados. É esta parte do trabalho que realmente define se você é ou não um bom Cientista de Dados.
+## 4.1. Fatos importantes
 
-O foco deste capítulo será:
-* [X] Linear, Logistic Regression, Decision Tree, Random Forest, Support Vector Machine and XGBoost algorithms for building Machine Learning models;
-
-* [X] Understand how to solve Classification and Regression problems in Machine Learning;
-
-* [X] Ensemble Modeling and techniques like Bagging and Boosting;
-
-* [X] Learn how to reduce dimensions using Feature Engineering, Principal Component Analysis (PCA) and t-SNE;
-
-* [X] Understand and use Preprocessing Methods from scikit-learn (To help with this chapter, follow: https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py);
-
-* [X] How to evaluate your Machine Learning models and improve them through Feature Engineering;
-
-* [X] Learn Unsupervised Machine Learning Techniques like k-means clustering and Hierarchical Clustering;
-
-#### Sugestão de leitura:
-* [The 10 Statistical Techniques Data Scientists Need to Master](https://medium.com/cracking-the-data-science-interview/the-10-statistical-techniques-data-scientists-need-to-master-1ef6dbd531f7)
+* **Dados nunca estão limpos e é no tratamento e preparação dos dados que o Cientista de Dados gasta aproximadamente 80% do seu tempo**. Considere que se "entra lixo --> sai lixo". Mais uma: o melhor algoritmo de Machine Learning do mundo não vai resolver o problema caso os dados não tenham qualidade.
+* **95% dos problemas não requerem Deep Learning**. Veremos alguns exemplos em que os modelos simples e tradicionais entregam ótimos resultados em comparação com modelos mais sofisticados;
+* **Em 90% dos casos, Generalized Linear Models (GLM) resolve o problema**;
+* **Big Data é somente mais uma ferramenta**;
+* Sugiro fortemente você abrir a mente para o paradigma Bayesiano;
+* **Academia e Business são mundos totalmente diferentes**;
+* **Apresentação é a chave** - Aprenda a vender suas ideias e domine Powerpoint e Excel;
+* **Todos os modelos são falsos, mas alguns são úteis**. [Quotations of George Box](https://en.wikipedia.org/wiki/All_models_are_wrong)
+* Não existe (pelo menos até agora) processo automático para Machine Learning, embora existam ferramentas que nos ajudarão a selecionar as melhores variáveis, na maioria das vezes você terá que sujar a mão.
+* Python é fracamente tipada. No caso do Python, é tipagem dinâmica, ou seja, posso alterar os tipos das variáveis a qualquer momento.
 
 ___
-## CRISP-DM PROCESS
-![CRISP-DM](https://github.com/MathMachado/DSWP/blob/master/Material/CRISP-DM.png?raw=true)
+# 5. Bibliografia usada neste curso
+* [Data Science from Scratch](https://github.com/MathMachado/Materials/blob/master/DataScienceFromScratch.png?raw=true)
+* [Hands-On Machine Learning with Scikit-Learn & Tensorflow](https://github.com/MathMachado/Materials/blob/master/Hands-On%20MachineLearningWithScikit-Learn%26Tensorflow.png?raw=true)
+* [Python for Data Analysis](https://github.com/MathMachado/Materials/blob/master/PythonForDataAnalysis.png?raw=true)
+* [Python Data Science Handbook](https://github.com/MathMachado/Materials/blob/master/PythonDataScienceHandbook.png?raw=true)
+
+___
+# 6. Python
+___
+# 7. CRISP-DM PROCESS
+![CRISP-DM](https://github.com/MathMachado/Materials/blob/master/CRISP-DM.png?raw=true)
 [Fonte](https://www.sv-europe.com/crisp-dm-methodology/)
 
 > CRISP-DM (Cross-Industry Process for Data Mining) é uma metodologia amplamente utilizada e estruturada para o planejamento e desenvolvimento de um projeto de Data Mining.
 
-## 1BU - BUSINESS UNDERSTANDING
+## 7.1. 1BU - BUSINESS UNDERSTANDING
 > Esta fase é dedicada a entender o que se deseja alcançar a partir de uma perspectiva de negócios. O objetivo deste estágio do processo é descobrir fatores importantes que possam influenciar o resultado do projeto. Há várias metodologias que podem ajudá-lo nesta fase. Sugiro a utilização da metodologia [SMART](https://www.proofhub.com/articles/smart-goal-setting-examples-for-project-managers) para ajudá-lo nesta fase.
 
-![BusinessUnderstanding](https://github.com/MathMachado/DSWP/blob/master/Material/BusinessUnderstanding.png?raw=true)
+![BusinessUnderstanding](https://github.com/MathMachado/Materials/blob/master/BusinessUnderstanding.png?raw=true)
 
-![SMART](https://github.com/MathMachado/DSWP/blob/master/Material/Smart.png?raw=true)
+![SMART](https://github.com/MathMachado/Materials/blob/master/Smart.png?raw=true)
 
-### Quais os principais outputs desta fase?
-* [X] Estebelecer claramente os objetivos do Projeto;
-* [X] Produzir o Project Plan (Recursos, limitações, suposições, riscos e etc);
-* [X] Definir critérios de sucesso do Projeto;
+### 7.1.1. Quais os principais outputs desta fase?
+* Estebelecer claramente os objetivos do Projeto;
+* Produzir o Project Plan (Recursos, limitações, suposições, riscos e etc);
+* Definir critérios de sucesso do Projeto;
 
-___
-## 2DU - DATA UNDERSTANDING
-> O foco desta fase está na coleta e exploração dos dados. Lembre-se de que a precisão dos modelos de ML depende da quantidade e qualidade dos dados. 
+## 7.2. 2DU - DATA UNDERSTANDING (Entendimento dos Dados)
+> O foco desta fase está na coleta e exploração dos dados. Lembre-se de que a precisão dos modelos de Machine Learning depende da quantidade e qualidade dos dados. 
 
-![DataUnderstanding](https://github.com/MathMachado/DSWP/blob/master/Material/DataUnderstanding.png?raw=true)
+![DataUnderstanding](https://github.com/MathMachado/Materials/blob/master/DataUnderstanding.png?raw=true)
 
-* [X] Exploratory Data Analysis
+### 7.2.1. EDA - Exploratory Data Analysis (Análise Exploratória de dados)
 > Também conhecido por EDA, nesta fase nosso foco está na exploração do dataframe, descobrir relações e descrever os dados em geral. Utilize-se das técnicas de Data Visualization para detectar relações relevantes entre as variáveis, desequilíbrios de classes e identificar variáveis mais importantes.
 
-___
-## 3DP - DATA PREPARATION
+## 7.3. 3DP - DATA PREPARATION (Preparação dos Dados)
 > Nesta fase o Cientista de Dados vai investir 80% do seu tempo, pois esta fase é dedicada a coletar, preparar, transformar e limpar dados: remover duplicatas, corrigir erros, lidar com Missing Values, normalização, conversões de tipo de dados e etc. 
 
-![DataPreparation](https://github.com/MathMachado/DSWP/blob/master/Material/DataPreparation.png?raw=true)
+![DataPreparation](https://github.com/MathMachado/Materials/blob/master/DataPreparation.png?raw=true)
 
-* [X] 3DP_Feature Engineering
+### 7.3.1. 3DP_Feature Engineering (Engenharia de Dados)
 > Nesta fase temos 2 objetivos: corrigir problemas nas variáveis e derivar novas variáveis.
 
 * É uma atividade que requer muita criatividade, intuição, conhecimento dos dados e do problema a ser resolvido;
@@ -274,99 +196,77 @@ ___
 	* Fase 1: O foco desta fase é corrigr possveis problemas de preenchimento das variáveis. Por exemplo, considere a variável 'Sexo' com os seguintes preenchimentos: m, M, Male, Men, Man, mALE, MALE, tudo isso para designar o sexo masculino. Isto é um problema de preenchimento e nesta fase vamos corrigir esses problemas.
 	* Fase 2: Criar mais atributos a partir dos atributos disponíveis.
 
-* [X] 3DP_Missing Values Handling
+### 7.3.2. 3DP_Missing Values Handling (Lidando com valores faltantes nos dDados)
 > Nosso foco nesta fase é identificar e tratar os Missing Values que neste curso são chamados de NaN (Not a Number). A tarefa de tratar os NaN são também chamados de Imputing Missing Values. Quando estamos diante de uma variável com grande número de NaN's (tanto numricas quanto categóricas) uma prática interessante é construir uma variável indicadora para indicar se aquele registro é ou não um NaN. Veremos isso mais tarde na prática.
 
-* [X] 3DP_Outliers Handling
+### 7.3.3. 3DP_Outliers Handling (Lindando com _Outliers_ nos Dados)
 > Nosso foco aqui é identificar e tratar os Outlier. Tratar outliers significa, por exemplo, descartá-lo/deletá-lo ou imputá-lo usando Média/Mediana/Moda. Outra alternativa é aplicar o Máximo para os Outliers superiores e Mínimo para os outliers inferiores. O Gráfico de Boxplot pode ajudar nesta fase. Uma outra alternativa interessante é usar K-Means para agrupar as observaçes da variável. Neste caso, ter-se-à um cluster com os outliers, tanto superiores quanto inferiores.
 
-* [X] 3DP_Data Transformation
+### 7.3.4. 3DP_Data Transformation (Transformação de Dados)
 > Significa colocar as variáveis numa mesma escala. Há várias transformações que podem ser aplicadas nesta fase. Principais transformações que podem ser aplicadas nas variáveis:
 
-* StandardScaler
+#### **StandardScaler**
 
-	<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" title="Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" title="Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" /></a>
 
-* MinMaxScaler
+#### **MinMaxScaler**
 
-	<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=\dfrac{X_{i}-min(X)}{max(X)-min(X)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=\dfrac{X_{i}-min(X)}{max(X)-min(X)}" title="Y_{i}=\dfrac{X_{i}-min(X)}{max(X)-min(X)}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=\dfrac{X_{i}-min(X)}{max(X)-min(X)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=\dfrac{X_{i}-min(X)}{max(X)-min(X)}" title="Y_{i} = abs(Y_{i}=\dfrac{X_{i}-min(X)}{max(X)-min(X)})" /></a>
 
-* KBinsDiscretizer
+#### **MaxAbsScaler**
 
-* MaxAbsScaler
-
-	<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" title="Y_{i}=\dfrac{X_{i}-mean(X)}{stdev(X)}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=abs\left&space;[&space;\dfrac{X_{i}-mean(X)}{stdev(X)}&space;\right&space;]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=abs\left&space;[&space;\dfrac{X_{i}-mean(X)}{stdev(X)}&space;\right&space;]" title="Y_{i}=abs\left [ \dfrac{X_{i}-mean(X)}{stdev(X)} \right ]" /></a>
 	
-	<a href="https://www.codecogs.com/eqnedit.php?latex=W_{i}=&space;abs(Y_{i})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?W_{i}=&space;abs(Y_{i})" title="W_{i}= abs(Y_{i})" /></a>
-	
-* RobustScaler
+#### **RobustScaler**
 
-	<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=\dfrac{X_{i}-Q_{1}(X)}{Q_{3}(X)-Q_{1}(X)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=\dfrac{X_{i}-Q_{1}(X)}{Q_{3}(X)-Q_{1}(X)}" title="Y_{i}=\dfrac{X_{i}-Q_{1}(X)}{Q_{3}(X)-Q_{1}(X)}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{i}=\dfrac{X_{i}-Q_{1}(X)}{Q_{3}(X)-Q_{1}(X)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{i}=\dfrac{X_{i}-Q_{1}(X)}{Q_{3}(X)-Q_{1}(X)}" title="Y_{i}=\dfrac{X_{i}-Q_{1}(X)}{Q_{3}(X)-Q_{1}(X)}" /></a>
 
-* Normalizer
+#### **Normalizer**
 	* Aplica as normas L1 ou L2. A norma L2 é default no scikit-learn.
 
 Obs.: As funções matemáticas desta sessão foram escritas com a ajuda do site: https://www.codecogs.com/eqnedit.php?latex=\mathcal{W}(A,f)&space;=&space;(T,\bar{f}).
 
-* [X] 3DP_Feature Selection ou Dimensionality Reduction
-> Selecionar os melhores atributos/variáveis para o(s) modelo(s) de ML. Pode-se utilizar Random Forest para avaliar a importância de cada atributo/variável para o modelo.
+### 7.3.5. 3DP_Feature Selection ou Dimensionality Reduction
+> Selecionar os melhores atributos/variáveis para o(s) modelo(s) de Machine Learning. Pode-se utilizar Random Forest para avaliar a importância de cada atributo/variável para o modelo.
 
 ### Sugestão de leitura:
 * [Rescaling Data for Machine Learning in Python with Scikit-Learn](https://machinelearningmastery.com/rescaling-data-for-machine-learning-in-python-with-scikit-learn/#targetText=Data%20Normalization,preparation%20of%20coefficients%20in%20regression.)
 
-___
-## 4M - MODELING
+## 7.4. 4M - MODELING
 > Algoritmos diferentes podem ser aplicados ao mesmo problema. Sugiro aplicar o maior número de algoritmos possveis e escolher o que entregar melhor resultados.
 
-![Modeling](https://github.com/MathMachado/DSWP/blob/master/Material/Modeling.png?raw=true)
+![Modeling](https://github.com/MathMachado/Materials/blob/master/Modeling.png?raw=true)
 
-### Supervised Learning
-[Incluir figura!!!]
+### 7.4.1. Supervised vs Unsupervised Learning
+![Supervised_X_Unsupervised](https://github.com/MathMachado/Materials/blob/master/Supervised_X_Unsupervised.jpeg?raw=true)
 
-[Referência](https://scikit-learn.org/stable/supervised_learning.html)
-
-### Unsupervised Learning
-[Incluir figura!!!]
-
-[Referência](https://scikit-learn.org/0.16/unsupervised_learning.html)
-
-### Machine Learning Map
-![Machine Learning Map](https://github.com/MathMachado/DSWP/blob/master/Material/ml_map.png?raw=true)
+### 7.4.2. Machine Learning Map
+![Machine Learning Map](https://github.com/MathMachado/Materials/blob/master/ml_map.png?raw=true)
 Source: [Choosing the right estimator](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
-### Modeling With Python
+### 7.4.3. Modeling With Python
 * [X] Amostras de treinamento e teste
-> Nesta fase o Cientista de Dados deve selecionar aleatoriamente as amostras de treinamento e teste (ou validação) dos modelos de ML. Geralmente usamos 70% da amostra para treinamento e o restante, 30%, para teste/validação. Outras opções são usar os percentuais 80/20 ou 75/25.
+> Nesta fase o Cientista de Dados deve selecionar aleatoriamente as amostras de treinamento e teste (ou validação) dos modelos de Machine Learning. Geralmente usamos 70% da amostra para treinamento e o restante, 30%, para teste/validação. Outras opções são usar os percentuais 80/20 ou 75/25.
 
-![Cross-Validation](https://github.com/MathMachado/DSWP/blob/master/Material/Cross-Validation.png?raw=true)
+![Cross-Validation](https://github.com/MathMachado/Materials/blob/master/Cross-Validation.png?raw=true)
 [Fonte](http://karlrosaen.com/ml/learning-log/2016-06-20/)
 
-* [X] Train the Model
-> Treinar o modelo com os dados significa encontrar o melhor (ou a melhor combinação de algoritmos de ML) que explica o fenômeno sob estudo. Vamos discutir esse tópico com mais detalhes mais tarde.
+* [X] Treinamento do Modelo de Machine Learning
+> Treinar o modelo com os dados significa encontrar o melhor (ou a melhor combinação de algoritmos de Machine Learning) que explica o fenômeno sob estudo. Vamos discutir esse tópico com mais detalhes mais tarde.
 
 As informaçes do dataframe devem estar convenientemente organizadas da seguinte forma:
 
-![X](https://github.com/MathMachado/DSWP/blob/master/Material/Architecture.png?raw=true)
+![X](https://github.com/MathMachado/Materials/blob/master/Architecture.png?raw=true)
 [Fonte](https://jakevdp.github.io/PythonDataScienceHandbook/06.00-figure-code.html#Features-and-Labels-Grid)
 
-* [X] Parameter Tuning
-> Esta fase tem por objetivo otimizar o melhor modelo de ML da fase anterior. Os hiperparâmetros de modelos podem incluir: número de etapas de treinamento, taxa de aprendizado, valores de inicialização e distribuição, etc.
+* [X] Parameter Tuning (ou otimização dos parâmetros dos modelos de Machine Learning)
+> Esta fase tem por objetivo otimizar o melhor modelo de Machine Learning da fase anterior. Os hiperparâmetros de modelos podem incluir: número de etapas de treinamento, taxa de aprendizado, valores de inicialização e distribuição, etc.
 
-* [X] Ensemble Methods
-> Ensemble Methods envolve a utilização de mais de um algoritmo de ML são treinados para resolver o mesmo problema e combinados para obter melhores resultados.
+* [X] Ensemble Methods (ou combinação de modelos de Machine Learning)
+> Ensemble Methods envolve a utilização de mais de um algoritmo de Machine Learning são treinados para resolver o mesmo problema e combinados para obter melhores resultados.
 
-![Ensemble](https://github.com/MathMachado/DSWP/blob/master/Material/Ensemble.png?raw=true)
+![Ensemble](https://github.com/MathMachado/Materials/blob/master/Ensemble.png?raw=true)
 Source: [Building an Ensemble Learning Model Using Scikit-learn](https://hub.packtpub.com/what-is-ensemble-learning/)
-
-As figuras para Ensemble podem ser encontradas aqui: https://github.com/MathMachado/DSWP/blob/master/Material/Boosting%2C%20Bagging%2C%20and%20Stacking%20%E2%80%94%20Ensemble%20Methods%20with%20sklearn%20and%20mlens.7z ou aqui: https://medium.com/@rrfd/boosting-bagging-and-stacking-ensemble-methods-with-sklearn-and-mlens-a455c0c982de.
-
-Os tipos de ensemble no scikit-learn são:
-* Boosting
-	* Colocar a figura aqui
-* Stacking
-	* Colocar a figura aqui
-* Bagging
-	* Colocar a figura aqui
 
 ### Sugestão de leitura:
 * [Ensemble methods: bagging, boosting and stacking](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
@@ -377,105 +277,17 @@ Os tipos de ensemble no scikit-learn são:
 * [Tune: a library for fast hyperparameter tuning at any scale](https://towardsdatascience.com/fast-hyperparameter-tuning-at-scale-d428223b081c)
 
 ___
-## 5MSE - MODEL SELECTION AND EVALUATE
-> Nesta fase identificamos e aplicamos as melhores métricas (Accuracy, Sensitivity, Specificity, F-Score, AUC, R-Sq, Adj R-SQ, RMSE (Root Mean Square Error)) para avaliar o desempenho/acurácia/performance dos modelos de ML. Treinamos os modelos de ML usando a amostra de treinamento e avaliamos o desempenho/acurácia/performance na amostra de teste/validação.
+## 7.5. 5MSE - SELEÇÃO E AVALIAÇÃO DOS MODELOS DE MACHINE LEARNING
+> Nesta fase identificamos e aplicamos as melhores métricas (Accuracy, Sensitivity, Specificity, F-Score, AUC, R-Sq, Adj R-SQ, RMSE (Root Mean Square Error)) para avaliar o desempenho/acurácia/performance dos modelos de Machine Learning. Treinamos os modelos de Machine Learning usando a amostra de treinamento e avaliamos o desempenho/acurácia/performance na amostra de teste/validação.
 
-![Evaluation](https://github.com/MathMachado/DSWP/blob/master/Material/Evaluation.png?raw=true)
+![Evaluation](https://github.com/MathMachado/Materials/blob/master/Evaluation.png?raw=true)
 
 * [X] [Métricas](https://scikit-learn.org/stable/modules/model_evaluation.html)
 * [X] [Model Selection and Evaluation](https://scikit-learn.org/stable/model_selection.html#model-selection)
 
-Eu comprei o curso: https://www.udemy.com/course/machine-learning-in-python-random-forest-adaboost/. Dá pra aproveitar alguma coisa?
-
 ___
-## 6D - Deployment
+## 7.6. 6D - Deployment (ou implantação dos Modelos de Machine Learning)
 > Implementa o modelo (ou conjunto de modelos nos casos de Emsembles Methods).
+>> "For every $1 you spend developing an algorith, you must spend $100 to deploy and support it". Tom Davenport
 
-![Deployment](https://github.com/MathMachado/DSWP/blob/master/Material/Deployment.png?raw=true)
-___
-# Introduction to Python
-## Nomes de variáveis
-* [X] As variáveis no Python devem começar com letras (A-Z/a-z) ou underscore(_)
-* [X] As variáveis Python não devem conter símbolos especiais como, por exemplo, !, @, #, $, %, .
-* [X] Palavras reservadas do Python não podem ser usadas como nomes de variáveis.	
-
-## Nomenclatura sugerida para Nomes de variáveis no Python
-> A nomenclatura (sugerida e adotada neste treinamento) identifica o tipo de variável:
-
-![Variable Names Rules](https://github.com/MathMachado/DSWP/blob/master/Material/VariablesNamesRules.png?raw=true)
-
-* [X] [Getting Started with Python](https://github.com/MathMachado/DSWP/blob/master/Notebooks/GettingStarted.ipynb)
-* [X] [Python Tuples](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Tuples.ipynb)
-* [X] [Python Lists](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Lists.ipynb)
-* [X] [Python Sets](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Sets.ipynb)
-* [X] [Python Dictionaries](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Dictionaries.ipynb)
-* [X] [Python Series](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Python%20Series.ipynb)
-* [ ] [NumPy]()
-* [ ] [Aggregations & Group Operations]()
-* [ ] [Functions](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Functions.ipynb)
-* [X] [Working With Dates and Times](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Working%20With%20Dates%20and%20Times.ipynb)
-
-___
-# Data Analysis With Pandas
-- [X] [Data Analysis with Pandas](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Data%20Analysis%20with%20Pandas.ipynb)
-	* [Index & Selection]()
-	* [Missing Values Handling]()
-	* [Combining Dataframes: concat() and append()]()
-	* [Combining Dataframes: merge & join()]()
-	* [Aggregations & Grouping]()
-	* [Pivot Tables]()
-	* [ ] [Sampling Strategies](Sampling Strategies.ipynb)
-
-___
-# Data Visualization with Matplotlib and Seaborn
-* [ ] [Data Visualization With Matplotlib](Matplotlib.ipynb)
-
-___
-# Advanced Resources
-* [ ] [Python RegEx - Regular Expressions](Python RegEx - Regular Expressions.ipynb)
-* [ ] [Modules](Modules.ipynb)
-* [X] [Fake Data](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Fake%20Data.ipynb)
-* [ ] [Classes and Methods](Classes and Methods.ipynb)
-* [ ] [Statistics and Probability](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Statistics and Probability.ipynb) - Finalizar!
-
-___
-# Machine Learning
-* [Introduction to Scilit-Learn]()
-* [Naive Bayes]()
-* [Linear regression]()
-* [Support Vector Machines]()
-* [Decision Trees & Random Forest]()
-* [Feature Engineering]()
-* [k-Means Clustering]()
-* [X] CRISP-DM as a Data Science Projecy
-	* [X] 3DP - Data Preparation
-		* [ ] [3DP_Data Preprocessing]()
-		* [X] [3DP_Missing Values Handling]()
-		* [X] [3DP_Outliers Handling]()
-		* [X] [3DP_Data Transformation](https://github.com/MathMachado/DSWP/blob/master/Notebooks/3DP_Data%20Transformation.ipynb)
-		* [ ] [3DP_Feature Engineering]()
-		* [X] [3DP_Feature Selection ou Dimensionality Reduction](https://github.com/MathMachado/DSWP/blob/master/Notebooks/3DP_Feature%20Selection.ipynb)
-	* [ ] [4M - Modeling]
-	* [ ] [5MSE - Modeling Selection and Evaluation]
-	* [ ] [6D - Deployment]
-* [X] [Pipelines usando Titanic Dataframe](https://github.com/MathMachado/DSWP/blob/master/Notebooks/Pipelines.ipynb)
-* [ ] [Ensemble Models] --> Veja esse exemplo: https://github.com/MathMachado/DSWP/blob/master/Material/Building%20an%20Ensemble%20Learning%20Model%20Using%20Scikit-learn.pdf
-
-___
-# Projects
-> A seguir, vos apresento os projetos/estudos de caso:.
-- [ ] Titanic - Problema da Classificação
-	* [X] 3DP - Data Preparation
-		* [X] [3DP_Feature Engineering_Fase1](https://github.com/MathMachado/DSWP/blob/master/Projetos/Classification/Titanic/3DP_Feature%20Engineering_Fase1.ipynb)
-		* [X] [3DP_Missing Values Handling](https://github.com/MathMachado/DSWP/blob/master/Projetos/Classification/Titanic/3DP_Missing%20Value%20Handling.ipynb)
-		* [X] [3DP_Outliers Handling]()
-		* [ ] [3DP_Feature Engineering_Fase2]()
-		* [X] [3DP_Data Transformation](https://github.com/MathMachado/DSWP/blob/master/Projetos/Classification/Titanic/3DP_Data%20Transformation_Titanic.ipynb)
-		* [X] [3DP_Feature Selection ou Dimensionality Reduction]()
-	* [ ] [4M - Modeling]
-	* [ ] [5MSE - Modeling Selection and Evaluation]
-	* [ ] [6D - Deployment]
-
-- [ ] [Data Anonymization(Data Anonymization.ipynb)
-- [Automated Machine Learning (AutoML)](https://heartbeat.fritz.ai/automated-machine-learning-in-python-5d7ddcf6bb9e)
-- [Deep Learning]()
+![Deployment](https://github.com/MathMachado/Materials/blob/master/Deployment.png?raw=true)
