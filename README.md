@@ -150,6 +150,27 @@ ___
 
 ___
 # 6. Python
+## 6.1. [PEP - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+> Guia ou melhores práticas para se escrever códigos mais claros em Python. Em outras palavras, é uma forma de (tentar) padronizar a forma de se escrever Python codes.
+>> Eu recomendo fortemente a investirem um tempo a ler este guia. Porque?
+* Escrevemos códigos somente para nós mesmos?
+* Trabalhamos sozinhos?
+* Quais as vantagens de termos (uma tentativa) códigos  códigos?
+
+Algumas vantagens:
+* Legibilidade - Escreva e documente códigos Python que lhe permita lembrar o que foi feito, como foi feito e porque foi feito. Isso ajuda quem for ler o seu código. Uma das máximas dos _Developers_ é que é horrível entender o código que outra pessoa escreveu. Portanto, seja claro ao escrever seus códigos;
+* Convenções - Explicit is better than implicit (https://www.python.org/dev/peps/pep-0020/). Ao escrever códigos Python você precisa definir variáveis, funções, classes, pacores e etc. Definir nomes claros para funções, variáveis e etc vai te ajudar a economizar tempo e energia no futuro, pois pelo nome da variável (por exemplo), você será capaz de saber o tipo, o que ela guarda e etc. A seguir, algumas convenções:
+
+| Tipo                                 | Convenção                                                                       | Exemplo                                      |
+|--------------------------------------|---------------------------------------------------------------------------------|----------------------------------------------|
+| Funções, variáveis, métodos, módulos | Use letras minúsculas e separe palavras com "_" (underscore).                   | minha_funcao, soma, minha_funcao, meu_metodo |
+| Classes                              | Comece cada palavra com letra maiúscula e separe palavras com "_" (underscore). | Modelo, Soma, Retorna_Soma                   |
+| Constantes                           | Use letras maiúsculas e separe palavras com "_" (underscore).                   | MINHA_CONSTANTE, STRING_CONSTANTE            |
+| Pacotes                              | Use letras minúsculas e NÃO separe palavras com "_" (underscore).               | meupacote, soma                              |
+
+No Notebook introdutório **NB01_01__Getting_Started.ipynb** nós vamos falar um pouco mais sobre isso.
+
+PEP significa _Python Enhancement Proposal_.
 ___
 # 7. CRISP-DM PROCESS
 ![CRISP-DM](https://github.com/MathMachado/Materials/blob/master/CRISP-DM.png?raw=true)
@@ -291,3 +312,17 @@ ___
 >> "For every $1 you spend developing an algorith, you must spend $100 to deploy and support it". Tom Davenport
 
 ![Deployment](https://github.com/MathMachado/Materials/blob/master/Deployment.png?raw=true)
+
+# **Diário de Bordo**
+## Aula 1
+* Set up do Google Colab;
+* Set up do Github;
+* Entender/medir o conhecimento da turma - Kahoot;
+* Fork do Github;
+
+## Aula 2
+* Sincronizar o Github individual (Pull Requests);
+* Notebook NB01_01__Getting_Started;
+* Notebook B;
+* ...
+
