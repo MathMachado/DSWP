@@ -8,7 +8,7 @@ Objetivo: Apresentar o que são autovalores e autovetores e qual a importância 
 
 Objetivo: Entender a definição matemática e a equação fundamental.
 
-- Apresente a equação característica: \(A \vec{v} = \lambda \vec{v}\), onde:
+- Apresente a equação característica: `\(A \vec{v} = \lambda \vec{v}\)`, onde:
   - \(A\) é uma matriz quadrada.
   - \(\vec{v}\) é o autovetor.
   - \(\lambda\) é o autovalor correspondente.
