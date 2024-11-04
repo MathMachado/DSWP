@@ -2,13 +2,6 @@
 
 Objetivo: Apresentar o que são autovalores e autovetores e qual a importância deles em álgebra linear e aplicações práticas.
 
-- Explique o que significa que um vetor seja "eigen" (do alemão, que significa "próprio" ou "característico").
-- Introduza a ideia de transformação linear e como ela age sobre vetores no espaço.
-- Explique que autovetores são vetores que, ao serem transformados por uma matriz, mantêm sua direção.
-- Autovalores são os fatores pelos quais esses vetores são "esticados" ou "encolhidos" pela transformação.
-
-Exemplo: Comece com uma matriz simples, como uma matriz de rotação, e explique como alguns vetores não mudam de direção mesmo quando rotacionados.
-
 ---
 
 # 2. Definindo Matematicamente Autovalores e Autovetores
