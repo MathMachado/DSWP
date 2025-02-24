@@ -1,7 +1,7 @@
 <center><h1 style="font-size:60px;"><b><i>DSWP - DATA SCIENCE WITH PYTHON</i></b></h1></center>
 
 # 0. Avisos, regras e um pouquinho de como eu gostaria que as coisas funcionassem
-## Ferramentas que usaremos nesse treinamento: Google Colab, Github e Turtoise.
+## Ferramentas que usaremos nesse treinamento: Google Colab, Github e Tortoise.
 
 ## Grupos de trabalho
 > Vamos dividí-los em grupos para trabalhem colaborativamente em busca de soluções para os problemas que serão propostos. Portanto, cada aluno será aleatoriamente atribuído a um grupo.
@@ -82,8 +82,8 @@ Neste treinamento, vou utilizar o Google Colab como principal ferramenta de trab
 * [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 * [Learn Enough Docker to be Useful](https://towardsdatascience.com/learn-enough-docker-to-be-useful-b7ba70caeb4b)
 
-## 1.6. [Turtoise](https://tortoisegit.org/)
-Turtoise é um _client_ para Git em Windows. Resumidamente, você consegue via Turtoise aplicar todos os comandos do Git usando point-and-click.
+## 1.6. [Tortoise](https://tortoisegit.org/)
+Tortoise é um _client_ para Git em Windows. Resumidamente, você consegue via Turtoise aplicar todos os comandos do Git usando point-and-click.
 ___
 # 2. Download dos dataframes do treinamento
 > Os dataframes que serão utilizados no treinamento estarão [aqui](https://github.com/MathMachado/Python_RFB/tree/master/Dataframes). Faça o download dos dataframes para o seu computador (ou Github ou Google Drive).
