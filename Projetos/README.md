@@ -18,3 +18,4 @@ O conjunto de dados contém informações sobre segurados com atributos como dur
 
 <img width="1145" height="706" alt="image" src="https://github.com/user-attachments/assets/3cc3a93a-99a6-4d40-80ee-c423988ff44a" />
 
+https://www.kaggle.com/code/davegn/car-insurance-claims-classification
