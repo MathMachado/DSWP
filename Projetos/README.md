@@ -12,3 +12,6 @@ O conjunto de dados contém informações sobre segurados com atributos como dur
 * Train submission: train_submision.csv
 
 <img width="1142" height="890" alt="image" src="https://github.com/user-attachments/assets/79502d44-f387-4347-ae68-1b910807633a" />
+
+<img width="1145" height="706" alt="image" src="https://github.com/user-attachments/assets/3cc3a93a-99a6-4d40-80ee-c423988ff44a" />
+
