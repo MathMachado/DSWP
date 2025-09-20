@@ -10,3 +10,5 @@ O conjunto de dados contém informações sobre segurados com atributos como dur
 * Dados de treinamento do ML: train.csv
 * Dados de test do ML: test.csv
 * Train submission: train_submision.csv
+
+<img width="1142" height="890" alt="image" src="https://github.com/user-attachments/assets/79502d44-f387-4347-ae68-1b910807633a" />
