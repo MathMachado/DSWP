@@ -1,4 +1,6 @@
-# Projeto 2: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos prêmios.
+# Projeto 2: Car Insurance Premium Prediction
+
+Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos prêmios.
 
 Este conjunto de dados contém 1.000 linhas de dados sintéticos que simulam prêmios de seguro de automóveis, calculados usando uma fórmula linear. Ele incorpora características-chave como idade do motorista, experiência de direção, histórico de acidentes, quilometragem anual e ano de fabricação do carro para prever o prêmio do seguro.
 O conjunto de dados é ideal para explorar modelos de regressão linear, análise de importância de características e modelagem preditiva no setor de seguros. Ele foi inspirado em fatores do mundo real que influenciam os prêmios de seguro, garantindo padrões realistas e insights significativos.
@@ -8,6 +10,9 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 * Dados de test do ML: car_insurance_premium_dataset_TEST.csv
 
 # Projeto 3: Car Insurance Claim Prediction
+
+Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos sinistros.
+
 O conjunto de dados contém informações sobre segurados com atributos como duração da apólice, idade do carro, idade do proprietário do carro, densidade populacional da cidade, marca e modelo do carro, potência, tipo de motor, etc., e a variável de destino indicando se o segurado fará uma reclamação nos próximos 6 meses ou não.
 
 * Dados de treinamento do ML: train.csv
