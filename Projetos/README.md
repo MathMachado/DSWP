@@ -1,6 +1,6 @@
 # Projeto 2: Car Insurance Premium Prediction
 
-Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos prêmios.
+Objetivo: criar o pipeline de tratamento dos dados para construção dos modelos de Machine Learning. O Modelo a ser construido será um modelo de GLM (Modelos Lineares Generalizados) para predição dos prêmios, mas não se preocupe com o modelo nesta entrega. O foco é tratar os dados.
 
 Este conjunto de dados contém 1.000 linhas de dados sintéticos que simulam prêmios de seguro de automóveis, calculados usando uma fórmula linear. Ele incorpora características-chave como idade do motorista, experiência de direção, histórico de acidentes, quilometragem anual e ano de fabricação do carro para prever o prêmio do seguro.
 O conjunto de dados é ideal para explorar modelos de regressão linear, análise de importância de características e modelagem preditiva no setor de seguros. Ele foi inspirado em fatores do mundo real que influenciam os prêmios de seguro, garantindo padrões realistas e insights significativos.
@@ -8,6 +8,13 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 ### Dados de treinamento e test dos modelos de ML
 * Dados de treinamento do ML: car_insurance_premium_dataset.csv
 * Dados de test do ML: car_insurance_premium_dataset_TEST.csv
+
+## Tarefas a serem feitas
+1. Aplicar lowercase em todas as colunas;
+2. Excluir caracteres especiais dos nomes das colunas;
+3. Tratamento dos outliers;
+4. Tratamento dos missing values;
+5. Lidar com dados categóricos;
 
 # Projeto 3: Car Insurance Claim Prediction
 
@@ -24,4 +31,14 @@ O conjunto de dados contém informações sobre segurados com atributos como dur
 
 <img width="1145" height="706" alt="image" src="https://github.com/user-attachments/assets/3cc3a93a-99a6-4d40-80ee-c423988ff44a" />
 
-https://www.kaggle.com/code/davegn/car-insurance-claims-classification
+## Tarefas a serem feitas
+1. Aplicar lowercase em todas as colunas;
+2. Excluir caracteres especiais dos nomes das colunas;
+3. Tratamento dos outliers;
+4. Tratamento dos missing values;
+5. Lidar com dados categóricos;
+6. Seleção de features;
+7. Definir as amostras de treinamento e validação;
+8. Escolher o algoritmo a ser aplicado;
+9. Métricas de performance dos algoritmos;
+10. Selecionar o melhor modelo preditivo;
