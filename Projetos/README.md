@@ -15,6 +15,7 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 3. Tratamento dos outliers;
 4. Tratamento dos missing values;
 5. Lidar com dados categóricos;
+6. Fazer EDA (Análise Expploratória de Dados);
 
 # Projeto 3: Car Insurance Claim Prediction
 
@@ -37,8 +38,9 @@ O conjunto de dados contém informações sobre segurados com atributos como dur
 3. Tratamento dos outliers;
 4. Tratamento dos missing values;
 5. Lidar com dados categóricos;
-6. Seleção de features;
-7. Definir as amostras de treinamento e validação;
-8. Escolher o algoritmo a ser aplicado;
-9. Métricas de performance dos algoritmos;
-10. Selecionar o melhor modelo preditivo;
+6. Fazer EDA (Análise Expploratória de Dados);
+7. Seleção de features;
+8. Definir as amostras de treinamento e validação;
+9. Escolher o algoritmo a ser aplicado;
+10. Métricas de performance dos algoritmos;
+11. Selecionar o melhor modelo preditivo;
