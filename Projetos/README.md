@@ -11,11 +11,11 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 
 ## Tarefas a serem feitas
 1. Aplicar lowercase em todas as colunas;
-2. Excluir caracteres especiais dos nomes das colunas;
+2. Excluir caracteres especiais dos nomes das colunas, incluindo o espaço em branco entre nome de colunas;
 3. Tratamento dos outliers;
 4. Tratamento dos missing values;
-5. Lidar com dados categóricos;
-6. Fazer EDA (Análise Expploratória de Dados);
+6. Lidar com dados categóricos;
+7. Fazer EDA (Análise Expploratória de Dados);
 
 # Projeto 3: Car Insurance Claim Prediction
 
