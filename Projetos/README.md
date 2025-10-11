@@ -15,7 +15,7 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 3. Tratamento dos outliers usando IQR e ZScore para cada da uma das variáveis do dataset. Substitua os outliers por mediana;
 4. Tratamento dos missing values para cada uma das variáveis do dataset. Substitua os missing values por mediana;
 6. Lidar com dados categóricos. Descreva o tratamento que você aplicou.
-7. Fazer EDA (Análise Expploratória de Dados);
+7. Fazer EDA (Análise Exploratória de Dados);
 8. Descreva os tipos de dados: float, int64, integer, ...
 
 # Projeto 3: Car Insurance Claim Prediction
