@@ -10,10 +10,10 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 * Dados de test do ML: car_insurance_premium_dataset_TEST.csv
 
 ## Tarefas a serem feitas
-1. Aplicar lowercase em todas as colunas;
-2. Excluir caracteres especiais dos nomes das colunas, incluindo o espaço em branco entre nome de colunas;
-3. Tratamento dos outliers;
-4. Tratamento dos missing values;
+1. Aplicar lowercase em todas as colunas (uniformizar os nomes das colunas);
+2. Excluir caracteres especiais dos nomes das colunas, incluindo o espaço em branco entre nome de colunas. Substitua os espaços em branco das colunas por "_";
+3. Tratamento dos outliers. Substitua os outliers por mediana;
+4. Tratamento dos missing values. Substitua os missing values por mediana;
 6. Lidar com dados categóricos;
 7. Fazer EDA (Análise Expploratória de Dados);
 
