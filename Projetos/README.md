@@ -22,7 +22,7 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 
 Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos sinistros.
 
-O conjunto de dados contém várias informações sobre segurados e a variável target (outcome) indica se o segurado terá um sinistro (ou não) nos próximos 6 meses. Os dados de treinamento e teste podem ser encontrados na mesma pasta do projeto3 (Projetos/Projeto3). Há um script Python intitulado Claims.ipynb para ajudá-los a fazer a leitura do arquivo csv.
+O conjunto de dados contém várias informações sobre segurados e a variável target (outcome) indica se o segurado terá um sinistro (ou não) nos próximos 6 meses. Há um script Python intitulado Claims.ipynb para ajudá-los a fazer a leitura do arquivo csv.
 
 ### Dados de treinamento e test dos modelos de ML:
 * Divida os dados em 80% para treinamento e 20% para teste.
