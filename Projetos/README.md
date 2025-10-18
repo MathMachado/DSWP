@@ -22,16 +22,10 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 
 Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos sinistros.
 
-O conjunto de dados contém várias informações sobre segurados e a variável target (is_claim) indica se o segurado terá um sinistro (ou não) nos próximos 6 meses. Os dados de treinamento e teste podem ser encontrados em DSWP/Dataframes.
+O conjunto de dados contém várias informações sobre segurados e a variável target (is_claim) indica se o segurado terá um sinistro (ou não) nos próximos 6 meses. Os dados de treinamento e teste podem ser encontrados na mesma pasta do projeto3 (Projetos/Projeto3). Há um script Python intitulado Claims.ipynb para ajudá-los a fazer a leitura do arquivo csv.
 
 ### Dados de treinamento e test dos modelos de ML:
-* Dados de treinamento do ML: train.csv
-* Dados de test do ML: test.csv
-* Train submission: train_submision.csv
-
-<img width="1142" height="890" alt="image" src="https://github.com/user-attachments/assets/79502d44-f387-4347-ae68-1b910807633a" />
-
-<img width="1145" height="706" alt="image" src="https://github.com/user-attachments/assets/3cc3a93a-99a6-4d40-80ee-c423988ff44a" />
+* Divida os dados em 80% para treinamento e 20% para teste.
 
 ## Tarefas a serem feitas
 1. Aplicar lowercase em todas as colunas;
