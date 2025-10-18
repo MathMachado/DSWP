@@ -22,7 +22,7 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 
 Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos sinistros.
 
-O conjunto de dados contém informações sobre segurados com atributos como duração da apólice, idade do carro, idade do proprietário do carro, densidade populacional da cidade, marca e modelo do carro, potência, tipo de motor, etc., e a variável de destino indicando se o segurado fará uma reclamação nos próximos 6 meses ou não.
+O conjunto de dados contém várias informações sobre segurados e a variável target indica se o segurado terá um sinistro (ou não) nos próximos 6 meses.
 
 ### Dados de treinamento e test dos modelos de ML:
 * Dados de treinamento do ML: train.csv
