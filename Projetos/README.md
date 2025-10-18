@@ -22,7 +22,7 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 
 Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos sinistros.
 
-O conjunto de dados contém várias informações sobre segurados e a variável target (is_claim) indica se o segurado terá um sinistro (ou não) nos próximos 6 meses.
+O conjunto de dados contém várias informações sobre segurados e a variável target (is_claim) indica se o segurado terá um sinistro (ou não) nos próximos 6 meses. Os dados de treinamento e teste podem ser encontrados em DSWP/Dataframes.
 
 ### Dados de treinamento e test dos modelos de ML:
 * Dados de treinamento do ML: train.csv
