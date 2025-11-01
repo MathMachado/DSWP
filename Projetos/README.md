@@ -20,7 +20,7 @@ O conjunto de dados é ideal para explorar modelos de regressão linear, anális
 
 # Projeto 3: Car Insurance Claim Prediction
 
-Objetivo: Construir um modelo usando GLM (Modelos Lineares Generalizados) para predição dos sinistros.
+Objetivo: Construir um modelo de classificação para predição dos sinistros.
 
 O conjunto de dados contém várias informações sobre segurados e a variável target (outcome) indica se o segurado terá um sinistro (ou não) nos próximos 6 meses. Há um script Python intitulado Claims.ipynb para ajudá-los a fazer a leitura do arquivo csv.
 
