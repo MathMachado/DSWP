@@ -1,0 +1,6 @@
+nome_modelo,target_0,target_1
+cb70,830,170
+cb70_tuned,820,180
+cb90,821,179
+cb90_tuned,811,189
+cb90_ensemble_boosting,839,161
